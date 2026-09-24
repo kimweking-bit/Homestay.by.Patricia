@@ -7,4 +7,10 @@ describe("Button", () => {
 
     expect(screen.getByRole("link", { name: "Example" })).toHaveAttribute("href", "/example");
   });
+
+  it("renders an accessible native button", () => {
+    render(<Button type="button">Submit</Button>);
+
+    expect(screen.getByRole("button", { name: "Submit" })).toHaveAttribute("type", "button");
+  });
 });
