@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { AppImage } from "@/components/ui/app-image";
 import { useState } from "react";
 import { Lightbox } from "@/components/shared/lightbox";
 import { imagePaths } from "@/lib/image-paths";
@@ -25,7 +25,7 @@ export function PropertyGallery({ images, captions, propertyName }: PropertyGall
             onClick={() => setActiveIndex(0)}
             type="button"
           >
-            <Image
+            <AppImage
               alt={`${propertyName}${captions?.[0] ? ` — ${captions[0]}` : " featured photo"}`}
               className="image-cover"
               fill
@@ -44,7 +44,7 @@ export function PropertyGallery({ images, captions, propertyName }: PropertyGall
                   onClick={() => setActiveIndex(index + 1)}
                   type="button"
                 >
-                  <Image
+                  <AppImage
                     alt={`${propertyName}${captions?.[index + 1] ? ` — ${captions[index + 1]}` : ` gallery view ${index + 2}`}`}
                     className="image-cover"
                     fill

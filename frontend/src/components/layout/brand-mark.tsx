@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { AppImage } from "@/components/ui/app-image";
 import Link from "next/link";
 import { brand } from "@/lib/brand";
 import { cn } from "@/lib/cn";
@@ -34,7 +34,7 @@ export function BrandMark({
           inverted ? "border-[rgb(255_255_255_/_0.35)]" : "border-[color-mix(in_srgb,var(--color-gold)_45%,var(--border))]",
         )}
       >
-        <Image
+        <AppImage
           alt=""
           className="object-cover"
           fill

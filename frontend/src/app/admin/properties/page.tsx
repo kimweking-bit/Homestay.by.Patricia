@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { AppImage } from "@/components/ui/app-image";
 import { Button } from "@/components/ui/button";
 import { properties } from "@/lib/mock-data";
 
@@ -20,7 +20,7 @@ export default function AdminPropertiesPage() {
         {properties.map((property) => (
           <article className="grid gap-4 border border-[var(--border)] bg-[var(--surface)] p-4 md:grid-cols-[160px_1fr_auto]" key={property.id}>
             <div className="relative aspect-[4/3] overflow-hidden rounded-[var(--radius-image)]">
-              <Image alt={property.imageAlt} className="image-cover" fill sizes="160px" src={property.heroImage} />
+              <AppImage alt={property.imageAlt} className="image-cover" fill sizes="160px" src={property.heroImage} />
             </div>
             <div>
               <p className="type-small text-[var(--muted)]">{property.location}</p>

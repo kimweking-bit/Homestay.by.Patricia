@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { AppImage } from "@/components/ui/app-image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Lightbox } from "@/components/shared/lightbox";
@@ -15,6 +15,73 @@ type ActiveGallery = {
   index: number;
 };
 
+/**
+ * Mount rail card image only when near the viewport.
+ * `allow` gates an entire marquee copy (duplicate loop deferred until idle).
+ */
+function DeferredRailImage({
+  allow,
+  alt,
+  src,
+}: {
+  allow: boolean;
+  alt: string;
+  src: string;
+}) {
+  const hostRef = useRef<HTMLDivElement | null>(null);
+  const [inRange, setInRange] = useState(false);
+
+  useEffect(() => {
+    if (!allow) {
+      setInRange(false);
+      return;
+    }
+    const node = hostRef.current;
+    if (!node) return;
+
+    const margin = 160;
+    const rect = node.getBoundingClientRect();
+    const near =
+      rect.bottom >= -margin &&
+      rect.top <= window.innerHeight + margin &&
+      rect.right >= -margin &&
+      rect.left <= window.innerWidth + margin;
+    if (near) {
+      setInRange(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          setInRange(true);
+          observer.disconnect();
+        }
+      },
+      { root: null, rootMargin: "160px 0px 160px 120px", threshold: 0.01 },
+    );
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [allow]);
+
+  return (
+    <div className="absolute inset-0" ref={hostRef}>
+      {allow && inRange ? (
+        <AppImage
+          alt={alt}
+          className="image-cover image-zoom"
+          fill
+          loading="lazy"
+          sizes="(min-width: 1024px) 22vw, (min-width: 640px) 38vw, 70vw"
+          src={src}
+        />
+      ) : (
+        <div aria-hidden className="absolute inset-0 bg-[var(--surface-muted)]" />
+      )}
+    </div>
+  );
+}
+
 function propertyMatchesFilter(property: Property, filter: GalleryFilter, query: string) {
   const matchesFilter = filter === "All stays" || property.collection === filter;
   const searchableText = `${property.name} ${property.location} ${property.area} ${property.propertyType}`.toLowerCase();
@@ -26,6 +93,8 @@ export function GalleryGrid({ properties }: { properties: Property[] }) {
   const [query, setQuery] = useState("");
   const [activeGallery, setActiveGallery] = useState<ActiveGallery | null>(null);
   const [isRailPaused, setIsRailPaused] = useState(false);
+  /** Second marquee copy may load images only after idle (same URLs → cache). */
+  const [duplicateCopyAllowed, setDuplicateCopyAllowed] = useState(false);
   const railRef = useRef<HTMLDivElement>(null);
   const signatureStay = properties.find((property) => property.collection === "Signature stays") ?? properties[0];
   const visibleProperties = useMemo(
@@ -40,6 +109,23 @@ export function GalleryGrid({ properties }: { properties: Property[] }) {
     if (mediaQuery.matches) {
       setIsRailPaused(true);
     }
+  }, []);
+
+  useEffect(() => {
+    let idleId: number | undefined;
+    let timeoutId: number | undefined;
+    const enable = () => setDuplicateCopyAllowed(true);
+    if (typeof window.requestIdleCallback === "function") {
+      idleId = window.requestIdleCallback(enable, { timeout: 2500 });
+    } else {
+      timeoutId = window.setTimeout(enable, 1500);
+    }
+    return () => {
+      if (idleId !== undefined && typeof window.cancelIdleCallback === "function") {
+        window.cancelIdleCallback(idleId);
+      }
+      if (timeoutId !== undefined) window.clearTimeout(timeoutId);
+    };
   }, []);
 
   function scrollRail(direction: "backward" | "forward") {
@@ -75,12 +161,11 @@ export function GalleryGrid({ properties }: { properties: Property[] }) {
               onClick={() => setActiveGallery({ property: signatureStay, index: 0 })}
               type="button"
             >
-              <Image
+              <AppImage
                 alt={signatureStay.imageAlt}
                 className="image-cover image-zoom"
                 fill
                 priority
-                quality={100}
                 sizes="(min-width: 768px) 62vw, 100vw"
                 src={signatureStay.heroImage}
               />
@@ -174,7 +259,9 @@ export function GalleryGrid({ properties }: { properties: Property[] }) {
                 ref={railRef}
               >
                 <div className={`gallery-rail-track ${isRailPaused ? "gallery-rail-track-paused" : ""}`}>
-                  {marqueeProperties.map((property, index) => (
+                  {marqueeProperties.map((property, index) => {
+                  const isDuplicateCopy = index >= railProperties.length;
+                  return (
                     <article className="gallery-rail-card group" key={`${property.id}-${index}`}>
                       <button
                         aria-label={`Open ${property.name} gallery`}
@@ -182,13 +269,11 @@ export function GalleryGrid({ properties }: { properties: Property[] }) {
                         onClick={() => setActiveGallery({ property, index: 0 })}
                         type="button"
                       >
-                        <Image
-                          alt={property.imageAlt}
-                          className="image-cover image-zoom"
-                          fill
-                          sizes="(min-width: 1024px) 25vw, (min-width: 640px) 42vw, 78vw"
-                          src={property.heroImage}
-                        />
+                        <DeferredRailImage
+                            allow={!isDuplicateCopy || duplicateCopyAllowed}
+                            alt={property.imageAlt}
+                            src={property.heroImage}
+                          />
                         <span className="absolute bottom-3 left-3 bg-white/94 px-3 py-2 text-xs font-semibold text-[var(--foreground)] opacity-0 transition-opacity duration-200 group-hover:opacity-100 group-focus-within:opacity-100">
                           View {property.galleryImages.length} photos
                         </span>
@@ -207,7 +292,8 @@ export function GalleryGrid({ properties }: { properties: Property[] }) {
                         </div>
                       </div>
                     </article>
-                  ))}
+                  );
+                  })}
                 </div>
               </div>
             </>

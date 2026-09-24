@@ -1,7 +1,7 @@
 "use client";
 
 import { FormEvent, useMemo, useState } from "react";
-import Image from "next/image";
+import { AppImage } from "@/components/ui/app-image";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -137,7 +137,7 @@ export default function BookingPage() {
 
       <aside className="border border-[var(--border)] bg-[var(--surface)] p-5 md:self-start md:p-6">
         <div className="relative mb-5 aspect-[4/3] overflow-hidden rounded-[var(--radius-image)] bg-[var(--surface-muted)]">
-          <Image alt={property.imageAlt} className="image-cover" fill sizes="360px" src={property.heroImage} />
+          <AppImage alt={property.imageAlt} className="image-cover" fill sizes="360px" src={property.heroImage} />
         </div>
         <h2 className="type-h3">{property.name}</h2>
         <p className="type-small mt-2 text-[var(--muted)]">{property.location}</p>

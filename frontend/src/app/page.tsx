@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import { AppImage } from "@/components/ui/app-image";
 import { Button } from "@/components/ui/button";
 import { PropertyCard } from "@/components/shared/property-card";
 import { brand } from "@/lib/brand";
@@ -49,12 +49,11 @@ export default function HomePage() {
   return (
     <>
       <section className="home-hero" aria-label="Welcome">
-        <Image
+        <AppImage
           alt="Warm interior of a Patricia homestay living space"
           className="hero-image image-cover"
           fill
           priority
-          quality={100}
           sizes="100vw"
           src={imagePaths.properties.suteraHero}
         />
@@ -138,7 +137,7 @@ export default function HomePage() {
           </div>
           <div className="home-photo-story">
             <figure className="home-photo-frame home-photo-frame-tall">
-              <Image
+              <AppImage
                 alt={featured.galleryCaptions[3] ?? featured.imageAlt}
                 className="image-cover"
                 fill
@@ -147,7 +146,7 @@ export default function HomePage() {
               />
             </figure>
             <figure className="home-photo-frame">
-              <Image
+              <AppImage
                 alt={featured.galleryCaptions[10] ?? "Homestay interior detail"}
                 className="image-cover"
                 fill
@@ -156,7 +155,7 @@ export default function HomePage() {
               />
             </figure>
             <figure className="home-photo-frame">
-              <Image
+              <AppImage
                 alt={featured.galleryCaptions[12] ?? "Homestay living space"}
                 className="image-cover"
                 fill
@@ -172,7 +171,7 @@ export default function HomePage() {
         <div className="site-container section-y">
           <div className="home-host">
             <figure className="home-host-portrait">
-              <Image
+              <AppImage
                 alt="Warm living space from the Patricia terrace home"
                 className="image-cover"
                 fill

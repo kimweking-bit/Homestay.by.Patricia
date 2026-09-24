@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import Image from "next/image";
+import { AppImage } from "@/components/ui/app-image";
 import { BookingPanel } from "@/components/shared/booking-panel";
 import { PropertyGallery } from "@/components/shared/property-gallery";
 import { Button } from "@/components/ui/button";
@@ -146,7 +146,7 @@ export default async function PropertyDetailPage({ params, searchParams }: Prope
               {property.rooms.map((room) => (
                 <figure className="overflow-hidden rounded-[var(--radius-image)] bg-[var(--surface-muted)]" key={room.name}>
                   <div className="relative aspect-[4/3]">
-                    <Image alt={room.name} className="image-cover" fill sizes="(min-width: 768px) 30vw, 100vw" src={room.image} />
+                    <AppImage alt={room.name} className="image-cover" fill sizes="(min-width: 768px) 30vw, 100vw" src={room.image} />
                   </div>
                   <figcaption className="px-1 py-3 text-sm font-semibold">{room.name}</figcaption>
                 </figure>

@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { AppImage } from "@/components/ui/app-image";
 import { useEffect, useRef } from "react";
 type LightboxProps = {
   images: string[];
@@ -70,7 +70,7 @@ export function Lightbox({
         </button>
       </div>
       <div className="relative min-h-[58vh]">
-        <Image alt={`${propertyName}${caption ? ` — ${caption}` : " enlarged photo"}`} className="object-contain" fill sizes="100vw" src={activeImage} />
+        <AppImage alt={`${propertyName}${caption ? ` — ${caption}` : " enlarged photo"}`} className="object-contain" fill sizes="100vw" src={activeImage} />
       </div>
       <div className="mt-4 flex justify-between gap-3">
         <button

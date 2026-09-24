@@ -1,0 +1,270 @@
+{
+  "metrics": {
+    "performance": 98,
+    "fcp_ms": 354.0725,
+    "lcp_ms": 810.1489499999999,
+    "tbt_ms": 111.49999999999994,
+    "cls": 0,
+    "ttfb_ms": 56.015,
+    "si_ms": 734.4876299833023,
+    "inp_ms": null
+  },
+  "lcpElement": {
+    "type": "table",
+    "headings": [
+      {
+        "key": "node",
+        "valueType": "node",
+        "label": "Element"
+      }
+    ],
+    "items": [
+      {
+        "node": {
+          "type": "node",
+          "lhId": "page-0-IMG",
+          "path": "1,HTML,1,BODY,3,MAIN,2,SECTION,0,DIV,0,BUTTON,0,IMG",
+          "selector": "section.site-container > div.grid > button.relative > img.image-cover",
+          "boundingRect": {
+            "top": 456,
+            "bottom": 1016,
+            "left": 133,
+            "right": 840,
+            "width": 707,
+            "height": 560
+          },
+          "snippet": "<img alt=\"Patricia Modern Terrace Homestay — Open lounge\" decoding=\"async\" data-nimg=\"fill\" class=\"image-cover\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" sizes=\"(min-width: 1024px) 62vw, 100vw\" srcset=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_lim…\" src=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_1080,c_li…\">",
+          "nodeLabel": "Patricia Modern Terrace Homestay — Open lounge"
+        }
+      }
+    ]
+  },
+  "requests": 37,
+  "imageRequests": 8,
+  "imageBytes": 256934,
+  "totalBytes": 577124,
+  "cloudinaryImageRequests": 8,
+  "localImageRequests": 0,
+  "oversized": [
+    {
+      "node": {
+        "type": "node",
+        "lhId": "1-9-IMG",
+        "path": "1,HTML,1,BODY,3,MAIN,3,SECTION,0,DIV,1,SECTION,1,DIV,3,FIGURE,0,DIV,0,IMG",
+        "selector": "div.mt-8 > figure.overflow-hidden > div.relative > img.image-cover",
+        "boundingRect": {
+          "top": 1944,
+          "bottom": 2185,
+          "left": 471,
+          "right": 793,
+          "width": 322,
+          "height": 242
+        },
+        "snippet": "<img alt=\"Single bedroom\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"image-cover\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" sizes=\"(min-width: 768px) 30vw, 100vw\" srcset=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_256,c_lim…\" src=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_lim…\">",
+        "nodeLabel": "Single bedroom"
+      },
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.36-1",
+      "totalBytes": 56282,
+      "wastedBytes": 50260,
+      "wastedPercent": 89.30085676625659
+    },
+    {
+      "node": {
+        "type": "node",
+        "lhId": "1-8-IMG",
+        "path": "1,HTML,1,BODY,3,MAIN,3,SECTION,0,DIV,1,SECTION,1,DIV,2,FIGURE,0,DIV,0,IMG",
+        "selector": "div.mt-8 > figure.overflow-hidden > div.relative > img.image-cover",
+        "boundingRect": {
+          "top": 1944,
+          "bottom": 2185,
+          "left": 133,
+          "right": 455,
+          "width": 322,
+          "height": 242
+        },
+        "snippet": "<img alt=\"Bunk room\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"image-cover\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" sizes=\"(min-width: 768px) 30vw, 100vw\" srcset=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_256,c_lim…\" src=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_lim…\">",
+        "nodeLabel": "Bunk room"
+      },
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.34-2",
+      "totalBytes": 49090,
+      "wastedBytes": 42083,
+      "wastedPercent": 85.72611371629543
+    },
+    {
+      "node": {
+        "type": "node",
+        "lhId": "1-7-IMG",
+        "path": "1,HTML,1,BODY,3,MAIN,3,SECTION,0,DIV,1,SECTION,1,DIV,1,FIGURE,0,DIV,0,IMG",
+        "selector": "div.mt-8 > figure.overflow-hidden > div.relative > img.image-cover",
+        "boundingRect": {
+          "top": 1642,
+          "bottom": 1884,
+          "left": 471,
+          "right": 793,
+          "width": 322,
+          "height": 242
+        },
+        "snippet": "<img alt=\"Twin bedroom\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"image-cover\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" sizes=\"(min-width: 768px) 30vw, 100vw\" srcset=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_256,c_lim…\" src=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_lim…\">",
+        "nodeLabel": "Twin bedroom"
+      },
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.29",
+      "totalBytes": 46214,
+      "wastedBytes": 41269,
+      "wastedPercent": 89.30085676625659
+    },
+    {
+      "node": {
+        "type": "node",
+        "lhId": "1-3-IMG",
+        "path": "1,HTML,1,BODY,3,MAIN,2,SECTION,0,DIV,0,BUTTON,0,IMG",
+        "selector": "section.site-container > div.grid > button.relative > img.image-cover",
+        "boundingRect": {
+          "top": 456,
+          "bottom": 1016,
+          "left": 133,
+          "right": 840,
+          "width": 707,
+          "height": 560
+        },
+        "snippet": "<img alt=\"Patricia Modern Terrace Homestay — Open lounge\" decoding=\"async\" data-nimg=\"fill\" class=\"image-cover\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" sizes=\"(min-width: 1024px) 62vw, 100vw\" srcset=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_lim…\" src=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_1080,c_li…\">",
+        "nodeLabel": "Patricia Modern Terrace Homestay — Open lounge"
+      },
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_1080,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.33-1",
+      "totalBytes": 48308,
+      "wastedBytes": 19133,
+      "wastedPercent": 39.605833180792
+    },
+    {
+      "node": {
+        "type": "node",
+        "lhId": "1-6-IMG",
+        "path": "1,HTML,1,BODY,3,MAIN,3,SECTION,0,DIV,1,SECTION,1,DIV,0,FIGURE,0,DIV,0,IMG",
+        "selector": "div.mt-8 > figure.overflow-hidden > div.relative > img.image-cover",
+        "boundingRect": {
+          "top": 1642,
+          "bottom": 1884,
+          "left": 133,
+          "right": 455,
+          "width": 322,
+          "height": 242
+        },
+        "snippet": "<img alt=\"Queen bedroom\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"image-cover\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" sizes=\"(min-width: 768px) 30vw, 100vw\" srcset=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_256,c_lim…\" src=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_lim…\">",
+        "nodeLabel": "Queen bedroom"
+      },
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35-2",
+      "totalBytes": 27098,
+      "wastedBytes": 18616,
+      "wastedPercent": 68.70019280205655
+    }
+  ],
+  "oversizedWaste": 171361,
+  "duplicates": [],
+  "imageSummary": [
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_1080,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.33-1",
+      "transfer": 48968,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_64,c_limit/homestay-by-patricia/brand/patricia/WhatsApp-Image-2026-09-15-at-11.46.16",
+      "transfer": 2322,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.31",
+      "transfer": 13508,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.28",
+      "transfer": 10810,
+      "mime": "image/webp",
+      "priority": "High",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35-2",
+      "transfer": 27749,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.29",
+      "transfer": 46874,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.34-2",
+      "transfer": 49751,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.36-1",
+      "transfer": 56952,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    }
+  ],
+  "cloudinarySample": [
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_1080,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.33-1",
+      "transfer": 48968,
+      "mime": "image/webp",
+      "priority": "Low"
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_64,c_limit/homestay-by-patricia/brand/patricia/WhatsApp-Image-2026-09-15-at-11.46.16",
+      "transfer": 2322,
+      "mime": "image/webp",
+      "priority": "Low"
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.31",
+      "transfer": 13508,
+      "mime": "image/webp",
+      "priority": "Low"
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.28",
+      "transfer": 10810,
+      "mime": "image/webp",
+      "priority": "High"
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35-2",
+      "transfer": 27749,
+      "mime": "image/webp",
+      "priority": "Low"
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.29",
+      "transfer": 46874,
+      "mime": "image/webp",
+      "priority": "Low"
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.34-2",
+      "transfer": 49751,
+      "mime": "image/webp",
+      "priority": "Low"
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.36-1",
+      "transfer": 56952,
+      "mime": "image/webp",
+      "priority": "Low"
+    }
+  ]
+}

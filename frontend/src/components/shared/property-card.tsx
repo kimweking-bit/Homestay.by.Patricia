@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { AppImage } from "@/components/ui/app-image";
 import Link from "next/link";
 import { Price } from "@/components/ui/price";
 import type { Property } from "@/lib/mock-data";
@@ -17,12 +17,12 @@ export function PropertyCard({ property, className, priority = false }: Property
     <article className={cn("property-card group", className)}>
       <Link className="property-card-link" href={href}>
         <div className="property-card-media">
-          <Image
+          <AppImage
             alt={property.imageAlt}
             className="image-cover image-zoom"
             fill
             priority={priority}
-            sizes="(min-width: 1280px) 30vw, (min-width: 640px) 45vw, 100vw"
+            sizes="(min-width: 1280px) 28vw, (min-width: 1024px) 30vw, (min-width: 640px) 45vw, 92vw"
             src={property.heroImage}
           />
           <span className="property-card-badge">{property.propertyType}</span>

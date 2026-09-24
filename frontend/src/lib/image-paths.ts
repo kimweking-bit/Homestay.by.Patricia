@@ -18,7 +18,7 @@ export const imagePaths = {
       openLivingDining: "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.28.jpeg",
       twinBedroom: "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.29.jpeg",
       mainKitchen: "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.30.jpeg",
-      exteriorGarden: "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.31 (1).jpeg",
+      exteriorGarden: "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.31.jpeg",
       diningCorner: "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.31.jpeg",
       balcony: "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.32.jpeg",
       loungeWide: "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.33 (1).jpeg",

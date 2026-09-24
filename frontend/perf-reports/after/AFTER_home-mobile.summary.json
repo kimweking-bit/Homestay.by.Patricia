@@ -1,0 +1,200 @@
+{
+  "metrics": {
+    "performance": 83,
+    "fcp_ms": 2088.9692999999997,
+    "lcp_ms": 2763.9692999999997,
+    "tbt_ms": 394.51534999999967,
+    "cls": 0,
+    "ttfb_ms": 414.51099999999997,
+    "si_ms": 3615.8815769225607,
+    "inp_ms": null
+  },
+  "lcpElement": {
+    "type": "table",
+    "headings": [
+      {
+        "key": "node",
+        "valueType": "node",
+        "label": "Element"
+      }
+    ],
+    "items": [
+      {
+        "node": {
+          "type": "node",
+          "lhId": "page-0-SPAN",
+          "path": "1,HTML,1,BODY,2,HEADER,0,DIV,0,A,1,SPAN,0,SPAN",
+          "selector": "div.site-container > a.inline-flex > span.grid > span.font-[var(--font-heading)]",
+          "boundingRect": {
+            "top": 15,
+            "bottom": 43,
+            "left": 80,
+            "right": 271,
+            "width": 191,
+            "height": 28
+          },
+          "snippet": "<span class=\"font-[var(--font-heading)] text-xl font-semibold text-[var(--color-soft-wh…\">",
+          "nodeLabel": "Homestay by Patricia"
+        }
+      }
+    ]
+  },
+  "requests": 27,
+  "imageRequests": 6,
+  "imageBytes": 286880,
+  "totalBytes": 574180,
+  "cloudinaryImageRequests": 6,
+  "localImageRequests": 0,
+  "oversized": [
+    {
+      "node": {
+        "type": "node",
+        "lhId": "1-4-IMG",
+        "path": "1,HTML,1,BODY,3,MAIN,1,SECTION,0,DIV,0,DIV,1,DIV,0,ARTICLE,0,A,0,DIV,0,IMG",
+        "selector": "article.property-card > a.property-card-link > div.property-card-media > img.image-cover",
+        "boundingRect": {
+          "top": 1075,
+          "bottom": 1327,
+          "left": 20,
+          "right": 355,
+          "width": 335,
+          "height": 251
+        },
+        "snippet": "<img alt=\"Balcony view from the Skyline Balcony Residence\" decoding=\"async\" data-nimg=\"fill\" class=\"image-cover image-zoom\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" sizes=\"(min-width: 1280px) 28vw, (min-width: 1024px) 30vw, (min-width: 640px) 45v…\" srcset=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_256,c_lim…\" src=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_lim…\">",
+        "nodeLabel": "Balcony view from the Skyline Balcony Residence"
+      },
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-2",
+      "totalBytes": 109074,
+      "wastedBytes": 60159,
+      "wastedPercent": 55.154666666666664
+    },
+    {
+      "node": {
+        "type": "node",
+        "lhId": "1-5-IMG",
+        "path": "1,HTML,1,BODY,3,MAIN,1,SECTION,0,DIV,0,DIV,1,DIV,1,ARTICLE,0,A,0,DIV,0,IMG",
+        "selector": "article.property-card > a.property-card-link > div.property-card-media > img.image-cover",
+        "boundingRect": {
+          "top": 1536,
+          "bottom": 1787,
+          "left": 20,
+          "right": 355,
+          "width": 335,
+          "height": 251
+        },
+        "snippet": "<img alt=\"Dining room in The Everyday City Apartment\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"image-cover image-zoom\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" sizes=\"(min-width: 1280px) 28vw, (min-width: 1024px) 30vw, (min-width: 640px) 45v…\" srcset=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_256,c_lim…\" src=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_lim…\">",
+        "nodeLabel": "Dining room in The Everyday City Apartment"
+      },
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/properties/property-06/1",
+      "totalBytes": 57238,
+      "wastedBytes": 31569,
+      "wastedPercent": 55.154666666666664
+    },
+    {
+      "node": {
+        "type": "node",
+        "lhId": "1-6-IMG",
+        "path": "1,HTML,1,BODY,3,MAIN,1,SECTION,0,DIV,0,DIV,1,DIV,2,ARTICLE,0,A,0,DIV,0,IMG",
+        "selector": "article.property-card > a.property-card-link > div.property-card-media > img.image-cover",
+        "boundingRect": {
+          "top": 1997,
+          "bottom": 2248,
+          "left": 20,
+          "right": 355,
+          "width": 335,
+          "height": 251
+        },
+        "snippet": "<img alt=\"Modern bedroom in the Midnight Modern Home\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"image-cover image-zoom\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" sizes=\"(min-width: 1280px) 28vw, (min-width: 1024px) 30vw, (min-width: 640px) 45v…\" srcset=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_256,c_lim…\" src=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_lim…\">",
+        "nodeLabel": "Modern bedroom in the Midnight Modern Home"
+      },
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/properties/property-07/H4",
+      "totalBytes": 52022,
+      "wastedBytes": 28693,
+      "wastedPercent": 55.154666666666664
+    }
+  ],
+  "oversizedWaste": 120421,
+  "duplicates": [],
+  "imageSummary": [
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/sutera-hero-staircase",
+      "transfer": 29308,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-2",
+      "transfer": 109772,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_96,c_limit/homestay-by-patricia/brand/patricia/WhatsApp-Image-2026-09-15-at-11.46.16",
+      "transfer": 3642,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/properties/property-06/1",
+      "transfer": 57883,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/properties/property-07/H4",
+      "transfer": 52669,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35",
+      "transfer": 33606,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    }
+  ],
+  "cloudinarySample": [
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/sutera-hero-staircase",
+      "transfer": 29308,
+      "mime": "image/webp",
+      "priority": "Low"
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-2",
+      "transfer": 109772,
+      "mime": "image/webp",
+      "priority": "Low"
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_96,c_limit/homestay-by-patricia/brand/patricia/WhatsApp-Image-2026-09-15-at-11.46.16",
+      "transfer": 3642,
+      "mime": "image/webp",
+      "priority": "Low"
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/properties/property-06/1",
+      "transfer": 57883,
+      "mime": "image/webp",
+      "priority": "Low"
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/properties/property-07/H4",
+      "transfer": 52669,
+      "mime": "image/webp",
+      "priority": "Low"
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35",
+      "transfer": 33606,
+      "mime": "image/webp",
+      "priority": "Low"
+    }
+  ]
+}

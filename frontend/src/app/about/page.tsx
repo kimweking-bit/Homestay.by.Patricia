@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { AppImage } from "@/components/ui/app-image";
 import type { Metadata } from "next";
 import { BrandMark } from "@/components/layout/brand-mark";
 import { Button } from "@/components/ui/button";
@@ -142,7 +142,7 @@ export default function AboutPage() {
 
           <div className="about-hero-visual" aria-label="Homestay images">
             <figure className="about-visual-card about-visual-card-tall">
-              <Image
+              <AppImage
                 alt="Warm home interior with natural textures"
                 className="image-cover"
                 fill
@@ -151,7 +151,7 @@ export default function AboutPage() {
               />
             </figure>
             <figure className="about-visual-card">
-              <Image
+              <AppImage
                 alt="Exterior view of the terrace home"
                 className="image-cover"
                 fill
@@ -160,7 +160,7 @@ export default function AboutPage() {
               />
             </figure>
             <figure className="about-visual-card">
-              <Image
+              <AppImage
                 alt="Cozy home detail with warm living space"
                 className="image-cover"
                 fill
@@ -299,7 +299,7 @@ export default function AboutPage() {
               <article className="about-review-card" key={`${review.name}-${index}`}>
                 <div className="about-review-header">
                   <div className="about-review-avatar">
-                    <Image
+                    <AppImage
                       alt={review.name}
                       className="object-cover"
                       fill
