@@ -1,32 +1,44 @@
 import Link from "next/link";
-import type { AnchorHTMLAttributes, ReactNode } from "react";
+import type { AnchorHTMLAttributes, ButtonHTMLAttributes, ReactNode } from "react";
+import { cn } from "@/lib/cn";
 
-type ButtonVariant = "primary" | "secondary";
+export type ButtonVariant = "primary" | "secondary" | "inverse" | "ghost" | "ghostInverse" | "constructive" | "destructive";
 
-type ButtonProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
+type SharedButtonProps = {
   children: ReactNode;
-  href: string;
   variant?: ButtonVariant;
 };
 
-const variantClassName: Record<ButtonVariant, string> = {
-  primary: "bg-[var(--accent)] text-[var(--accent-contrast)] hover:bg-teal-800",
-  secondary:
-    "border border-[var(--border)] bg-[var(--surface)] text-[var(--foreground)] hover:bg-stone-100",
-};
+type ButtonAsLinkProps = AnchorHTMLAttributes<HTMLAnchorElement> &
+  SharedButtonProps & {
+    href: string;
+  };
 
-export function Button({ children, className, href, variant = "primary", ...props }: ButtonProps) {
-  const classes = [
-    "inline-flex h-11 items-center justify-center rounded-md px-5 text-sm font-semibold transition-colors",
-    variantClassName[variant],
-    className,
-  ]
-    .filter(Boolean)
-    .join(" ");
+type ButtonAsButtonProps = ButtonHTMLAttributes<HTMLButtonElement> &
+  SharedButtonProps & {
+    href?: never;
+  };
 
+type ButtonProps = ButtonAsButtonProps | ButtonAsLinkProps;
+
+function isLinkButtonProps(props: ButtonProps): props is ButtonAsLinkProps {
+  return typeof props.href === "string";
+}
+
+export function Button(props: ButtonProps) {
+  if (isLinkButtonProps(props)) {
+    const { children, className, href, variant: variantName, ...linkProps } = props;
+    return (
+      <Link className={cn("btn", `btn-${variantName ?? "primary"}`, className)} href={href} {...linkProps}>
+        {children}
+      </Link>
+    );
+  }
+
+  const { children, className, variant: variantName, ...buttonProps } = props;
   return (
-    <Link className={classes} href={href} {...props}>
+    <button className={cn("btn", `btn-${variantName ?? "primary"}`, className)} {...buttonProps}>
       {children}
-    </Link>
+    </button>
   );
 }
