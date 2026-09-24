@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { AppImage } from "@/components/ui/app-image";
 import { EmptyState } from "@/components/shared/empty-state";
 import { StaysExplorer } from "@/components/shared/stays-explorer";
 import { brand } from "@/lib/brand";
@@ -53,7 +53,7 @@ export default function PropertiesPage() {
                 key={property.id}
                 className={index === 0 ? "stays-atmosphere-lead" : "stays-atmosphere-tile"}
               >
-                <Image
+                <AppImage
                   alt={property.imageAlt}
                   className="image-cover image-zoom"
                   fill

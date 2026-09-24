@@ -1,0 +1,60 @@
+{
+  "metrics": {
+    "performance": 86,
+    "fcp_ms": 1149.9340000000002,
+    "lcp_ms": 2163.8769999999995,
+    "tbt_ms": 514.5329999999997,
+    "cls": 0,
+    "ttfb_ms": 31.18,
+    "si_ms": 1301.60098998301
+  },
+  "requests": 21,
+  "imageRequests": 2,
+  "imageBytes": 61582,
+  "totalBytes": 344022,
+  "cloudinaryImageRequests": 2,
+  "imageSummary": [
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_limit/homestay-by-patricia/properties/property-18/X2",
+      "transfer": 57940,
+      "mime": "image/webp",
+      "priority": "High"
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_96,c_limit/homestay-by-patricia/brand/patricia/WhatsApp-Image-2026-09-15-at-11.46.16",
+      "transfer": 3642,
+      "mime": "image/webp",
+      "priority": "High"
+    }
+  ],
+  "lcpElement": {
+    "type": "table",
+    "headings": [
+      {
+        "key": "node",
+        "valueType": "node",
+        "label": "Element"
+      }
+    ],
+    "items": [
+      {
+        "node": {
+          "type": "node",
+          "lhId": "page-0-IMG",
+          "path": "1,HTML,1,BODY,3,MAIN,1,SECTION,0,ARTICLE,0,BUTTON,0,IMG",
+          "selector": "section.site-container > article.gallery-signature > button.group > img.image-cover",
+          "boundingRect": {
+            "top": 331,
+            "bottom": 540,
+            "left": 20,
+            "right": 355,
+            "width": 335,
+            "height": 209
+          },
+          "snippet": "<img alt=\"Designer living room at The Gallery Residence\" decoding=\"async\" data-nimg=\"fill\" class=\"image-cover image-zoom\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" sizes=\"(min-width: 768px) 62vw, 100vw\" srcset=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_lim…\" src=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_750,c_lim…\">",
+          "nodeLabel": "Designer living room at The Gallery Residence"
+        }
+      }
+    ]
+  }
+}

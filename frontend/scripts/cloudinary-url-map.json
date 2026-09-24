@@ -1,0 +1,994 @@
+{
+  "cloud": "j8fnep3s",
+  "preset": "dzwxevbe",
+  "uploadedAt": "2026-09-24T19:39:01.872Z",
+  "durationMs": 34668,
+  "ok": 123,
+  "fail": 0,
+  "map": {
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.28.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.28",
+      "version": 1790278708,
+      "width": 1284,
+      "height": 722,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278708/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.28.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.28 (1).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.28-1",
+      "version": 1790278708,
+      "width": 900,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278708/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.28-1.jpg"
+    },
+    "/images/brand/patricia/WhatsApp Image 2026-09-15 at 11.46.16.jpeg": {
+      "publicId": "homestay-by-patricia/brand/patricia/WhatsApp-Image-2026-09-15-at-11.46.16",
+      "version": 1790278708,
+      "width": 1254,
+      "height": 1254,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278708/homestay-by-patricia/brand/patricia/WhatsApp-Image-2026-09-15-at-11.46.16.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.30.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.30",
+      "version": 1790278709,
+      "width": 1284,
+      "height": 722,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278709/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.30.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.29.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.29",
+      "version": 1790278709,
+      "width": 900,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278709/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.29.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.31.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.31",
+      "version": 1790278709,
+      "width": 1284,
+      "height": 722,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278709/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.31.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.32.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.32",
+      "version": 1790278710,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278710/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.32.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.33 (1).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.33-1",
+      "version": 1790278710,
+      "width": 1284,
+      "height": 722,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278710/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.33-1.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.33.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.33",
+      "version": 1790278710,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278710/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.33.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.34 (1).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.34-1",
+      "version": 1790278711,
+      "width": 1284,
+      "height": 722,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278711/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.34-1.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.34 (2).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.34-2",
+      "version": 1790278711,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278711/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.34-2.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.35 (1).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35-1",
+      "version": 1790278711,
+      "width": 1284,
+      "height": 722,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278711/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35-1.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.34.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.34",
+      "version": 1790278711,
+      "width": 900,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278711/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.34.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.35 (2).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35-2",
+      "version": 1790278711,
+      "width": 1280,
+      "height": 778,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278711/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35-2.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.35 (3).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35-3",
+      "version": 1790278712,
+      "width": 800,
+      "height": 566,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278712/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35-3.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.35.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35",
+      "version": 1790278712,
+      "width": 1028,
+      "height": 685,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278712/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.36 (1).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.36-1",
+      "version": 1790278712,
+      "width": 900,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278712/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.36-1.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.36 (2).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.36-2",
+      "version": 1790278713,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278713/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.36-2.jpg"
+    },
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.36.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.36",
+      "version": 1790278713,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278713/homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.36.jpg"
+    },
+    "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (1).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-1",
+      "version": 1790278713,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278713/homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-1.jpg"
+    },
+    "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (4).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-4",
+      "version": 1790278714,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278714/homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-4.jpg"
+    },
+    "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (3).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-3",
+      "version": 1790278714,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278714/homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-3.jpg"
+    },
+    "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (2).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-2",
+      "version": 1790278714,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278714/homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-2.jpg"
+    },
+    "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27",
+      "version": 1790278715,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278715/homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27.jpg"
+    },
+    "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.28.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.28",
+      "version": 1790278715,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278715/homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.28.jpg"
+    },
+    "/images/properties/property-06/1.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-06/1",
+      "version": 1790278715,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278715/homestay-by-patricia/properties/property-06/1.jpg"
+    },
+    "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.28 (1).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.28-1",
+      "version": 1790278715,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278715/homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.28-1.jpg"
+    },
+    "/images/properties/property-06/3.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-06/3",
+      "version": 1790278716,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278716/homestay-by-patricia/properties/property-06/3.jpg"
+    },
+    "/images/properties/property-06/4.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-06/4",
+      "version": 1790278716,
+      "width": 980,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278716/homestay-by-patricia/properties/property-06/4.jpg"
+    },
+    "/images/properties/property-06/5.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-06/5",
+      "version": 1790278716,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278716/homestay-by-patricia/properties/property-06/5.jpg"
+    },
+    "/images/properties/property-06/WhatsApp Image 2026-09-17 at 11.06.53.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-06/WhatsApp-Image-2026-09-17-at-11.06.53",
+      "version": 1790278716,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278716/homestay-by-patricia/properties/property-06/WhatsApp-Image-2026-09-17-at-11.06.53.jpg"
+    },
+    "/images/properties/property-07/H1.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-07/H1",
+      "version": 1790278717,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278717/homestay-by-patricia/properties/property-07/H1.jpg"
+    },
+    "/images/properties/property-07/H2.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-07/H2",
+      "version": 1790278717,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278717/homestay-by-patricia/properties/property-07/H2.jpg"
+    },
+    "/images/properties/property-07/H3.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-07/H3",
+      "version": 1790278717,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278717/homestay-by-patricia/properties/property-07/H3.jpg"
+    },
+    "/images/properties/property-07/H5.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-07/H5",
+      "version": 1790278718,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278718/homestay-by-patricia/properties/property-07/H5.jpg"
+    },
+    "/images/properties/property-07/H4.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-07/H4",
+      "version": 1790278718,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278718/homestay-by-patricia/properties/property-07/H4.jpg"
+    },
+    "/images/properties/property-07/H6.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-07/H6",
+      "version": 1790278718,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278718/homestay-by-patricia/properties/property-07/H6.jpg"
+    },
+    "/images/properties/property-08/WhatsApp Image 2026-09-17 at 11.06.50 (1).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-08/WhatsApp-Image-2026-09-17-at-11.06.50-1",
+      "version": 1790278718,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278718/homestay-by-patricia/properties/property-08/WhatsApp-Image-2026-09-17-at-11.06.50-1.jpg"
+    },
+    "/images/properties/property-07/H7.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-07/H7",
+      "version": 1790278718,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278718/homestay-by-patricia/properties/property-07/H7.jpg"
+    },
+    "/images/properties/property-08/WhatsApp Image 2026-09-17 at 11.06.50 (2).jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-08/WhatsApp-Image-2026-09-17-at-11.06.50-2",
+      "version": 1790278719,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278719/homestay-by-patricia/properties/property-08/WhatsApp-Image-2026-09-17-at-11.06.50-2.jpg"
+    },
+    "/images/properties/property-08/WhatsApp Image 2026-09-17 at 11.06.50.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-08/WhatsApp-Image-2026-09-17-at-11.06.50",
+      "version": 1790278719,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278719/homestay-by-patricia/properties/property-08/WhatsApp-Image-2026-09-17-at-11.06.50.jpg"
+    },
+    "/images/properties/property-09/Q1.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-09/Q1",
+      "version": 1790278719,
+      "width": 720,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278719/homestay-by-patricia/properties/property-09/Q1.jpg"
+    },
+    "/images/properties/property-09/Q2.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-09/Q2",
+      "version": 1790278720,
+      "width": 720,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278720/homestay-by-patricia/properties/property-09/Q2.jpg"
+    },
+    "/images/properties/property-09/Q3.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-09/Q3",
+      "version": 1790278720,
+      "width": 720,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278720/homestay-by-patricia/properties/property-09/Q3.jpg"
+    },
+    "/images/properties/property-10/K1.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-10/K1",
+      "version": 1790278720,
+      "width": 585,
+      "height": 438,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278720/homestay-by-patricia/properties/property-10/K1.jpg"
+    },
+    "/images/properties/property-09/Q4.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-09/Q4",
+      "version": 1790278720,
+      "width": 720,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278720/homestay-by-patricia/properties/property-09/Q4.jpg"
+    },
+    "/images/properties/property-10/K2.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-10/K2",
+      "version": 1790278721,
+      "width": 585,
+      "height": 438,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278721/homestay-by-patricia/properties/property-10/K2.jpg"
+    },
+    "/images/properties/property-10/K3.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-10/K3",
+      "version": 1790278721,
+      "width": 1284,
+      "height": 963,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278721/homestay-by-patricia/properties/property-10/K3.jpg"
+    },
+    "/images/properties/property-10/K5.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-10/K5",
+      "version": 1790278722,
+      "width": 585,
+      "height": 438,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278722/homestay-by-patricia/properties/property-10/K5.jpg"
+    },
+    "/images/properties/property-10/K6.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-10/K6",
+      "version": 1790278722,
+      "width": 585,
+      "height": 438,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278722/homestay-by-patricia/properties/property-10/K6.jpg"
+    },
+    "/images/properties/property-10/K4.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-10/K4",
+      "version": 1790278721,
+      "width": 1284,
+      "height": 963,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278721/homestay-by-patricia/properties/property-10/K4.jpg"
+    },
+    "/images/properties/property-10/K7.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-10/K7",
+      "version": 1790278722,
+      "width": 1284,
+      "height": 963,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278722/homestay-by-patricia/properties/property-10/K7.jpg"
+    },
+    "/images/properties/property-10/K8.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-10/K8",
+      "version": 1790278723,
+      "width": 585,
+      "height": 438,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278723/homestay-by-patricia/properties/property-10/K8.jpg"
+    },
+    "/images/properties/property-11/W1.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-11/W1",
+      "version": 1790278723,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278723/homestay-by-patricia/properties/property-11/W1.jpg"
+    },
+    "/images/properties/property-11/W2.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-11/W2",
+      "version": 1790278723,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278723/homestay-by-patricia/properties/property-11/W2.jpg"
+    },
+    "/images/properties/property-11/W3.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-11/W3",
+      "version": 1790278723,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278723/homestay-by-patricia/properties/property-11/W3.jpg"
+    },
+    "/images/properties/property-11/W4.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-11/W4",
+      "version": 1790278724,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278724/homestay-by-patricia/properties/property-11/W4.jpg"
+    },
+    "/images/properties/property-11/W5.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-11/W5",
+      "version": 1790278724,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278724/homestay-by-patricia/properties/property-11/W5.jpg"
+    },
+    "/images/properties/property-11/W6.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-11/W6",
+      "version": 1790278724,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278724/homestay-by-patricia/properties/property-11/W6.jpg"
+    },
+    "/images/properties/property-11/W7.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-11/W7",
+      "version": 1790278724,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278724/homestay-by-patricia/properties/property-11/W7.jpg"
+    },
+    "/images/properties/property-11/W8.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-11/W8",
+      "version": 1790278725,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278725/homestay-by-patricia/properties/property-11/W8.jpg"
+    },
+    "/images/properties/property-12/A2.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-12/A2",
+      "version": 1790278725,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278725/homestay-by-patricia/properties/property-12/A2.jpg"
+    },
+    "/images/properties/property-12/A3.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-12/A3",
+      "version": 1790278725,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278725/homestay-by-patricia/properties/property-12/A3.jpg"
+    },
+    "/images/properties/property-12/A4.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-12/A4",
+      "version": 1790278726,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278726/homestay-by-patricia/properties/property-12/A4.jpg"
+    },
+    "/images/properties/property-12/A1.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-12/A1",
+      "version": 1790278726,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278726/homestay-by-patricia/properties/property-12/A1.jpg"
+    },
+    "/images/properties/property-13/Z1.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-13/Z1",
+      "version": 1790278726,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278726/homestay-by-patricia/properties/property-13/Z1.jpg"
+    },
+    "/images/properties/property-13/Z10.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-13/Z10",
+      "version": 1790278727,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278727/homestay-by-patricia/properties/property-13/Z10.jpg"
+    },
+    "/images/properties/property-13/Z3.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-13/Z3",
+      "version": 1790278727,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278727/homestay-by-patricia/properties/property-13/Z3.jpg"
+    },
+    "/images/properties/property-13/Z2.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-13/Z2",
+      "version": 1790278727,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278727/homestay-by-patricia/properties/property-13/Z2.jpg"
+    },
+    "/images/properties/property-13/Z4.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-13/Z4",
+      "version": 1790278727,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278727/homestay-by-patricia/properties/property-13/Z4.jpg"
+    },
+    "/images/properties/property-13/Z5.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-13/Z5",
+      "version": 1790278727,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278727/homestay-by-patricia/properties/property-13/Z5.jpg"
+    },
+    "/images/properties/property-13/Z6.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-13/Z6",
+      "version": 1790278728,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278728/homestay-by-patricia/properties/property-13/Z6.jpg"
+    },
+    "/images/properties/property-13/Z7.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-13/Z7",
+      "version": 1790278728,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278728/homestay-by-patricia/properties/property-13/Z7.jpg"
+    },
+    "/images/properties/property-13/Z8.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-13/Z8",
+      "version": 1790278728,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278728/homestay-by-patricia/properties/property-13/Z8.jpg"
+    },
+    "/images/properties/property-13/Z9.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-13/Z9",
+      "version": 1790278729,
+      "width": 1200,
+      "height": 1600,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278729/homestay-by-patricia/properties/property-13/Z9.jpg"
+    },
+    "/images/properties/property-14/E1.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-14/E1",
+      "version": 1790278729,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278729/homestay-by-patricia/properties/property-14/E1.jpg"
+    },
+    "/images/properties/property-14/E10.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-14/E10",
+      "version": 1790278729,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278729/homestay-by-patricia/properties/property-14/E10.jpg"
+    },
+    "/images/properties/property-14/E3.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-14/E3",
+      "version": 1790278729,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278729/homestay-by-patricia/properties/property-14/E3.jpg"
+    },
+    "/images/properties/property-14/E2.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-14/E2",
+      "version": 1790278729,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278729/homestay-by-patricia/properties/property-14/E2.jpg"
+    },
+    "/images/properties/property-14/E4.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-14/E4",
+      "version": 1790278729,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278729/homestay-by-patricia/properties/property-14/E4.jpg"
+    },
+    "/images/properties/property-14/E5.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-14/E5",
+      "version": 1790278730,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278730/homestay-by-patricia/properties/property-14/E5.jpg"
+    },
+    "/images/properties/property-14/E6.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-14/E6",
+      "version": 1790278730,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278730/homestay-by-patricia/properties/property-14/E6.jpg"
+    },
+    "/images/properties/property-14/E7.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-14/E7",
+      "version": 1790278730,
+      "width": 1000,
+      "height": 750,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278730/homestay-by-patricia/properties/property-14/E7.jpg"
+    },
+    "/images/properties/property-15/R1.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-15/R1",
+      "version": 1790278731,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278731/homestay-by-patricia/properties/property-15/R1.jpg"
+    },
+    "/images/properties/property-14/E8.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-14/E8",
+      "version": 1790278731,
+      "width": 1000,
+      "height": 750,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278731/homestay-by-patricia/properties/property-14/E8.jpg"
+    },
+    "/images/properties/property-15/R2.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-15/R2",
+      "version": 1790278731,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278731/homestay-by-patricia/properties/property-15/R2.jpg"
+    },
+    "/images/properties/property-14/E9.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-14/E9",
+      "version": 1790278731,
+      "width": 1000,
+      "height": 750,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278731/homestay-by-patricia/properties/property-14/E9.jpg"
+    },
+    "/images/properties/property-15/R3.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-15/R3",
+      "version": 1790278732,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278732/homestay-by-patricia/properties/property-15/R3.jpg"
+    },
+    "/images/properties/property-15/R4.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-15/R4",
+      "version": 1790278732,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278732/homestay-by-patricia/properties/property-15/R4.jpg"
+    },
+    "/images/properties/property-15/R5.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-15/R5",
+      "version": 1790278732,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278732/homestay-by-patricia/properties/property-15/R5.jpg"
+    },
+    "/images/properties/property-15/R6.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-15/R6",
+      "version": 1790278733,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278733/homestay-by-patricia/properties/property-15/R6.jpg"
+    },
+    "/images/properties/property-15/R8.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-15/R8",
+      "version": 1790278733,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278733/homestay-by-patricia/properties/property-15/R8.jpg"
+    },
+    "/images/properties/property-15/R7.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-15/R7",
+      "version": 1790278733,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278733/homestay-by-patricia/properties/property-15/R7.jpg"
+    },
+    "/images/properties/property-16/S1.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-16/S1",
+      "version": 1790278733,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278733/homestay-by-patricia/properties/property-16/S1.jpg"
+    },
+    "/images/properties/property-16/S10.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-16/S10",
+      "version": 1790278733,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278733/homestay-by-patricia/properties/property-16/S10.jpg"
+    },
+    "/images/properties/property-16/S2.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-16/S2",
+      "version": 1790278734,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278734/homestay-by-patricia/properties/property-16/S2.jpg"
+    },
+    "/images/properties/property-16/S3.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-16/S3",
+      "version": 1790278734,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278734/homestay-by-patricia/properties/property-16/S3.jpg"
+    },
+    "/images/properties/property-16/S4.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-16/S4",
+      "version": 1790278734,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278734/homestay-by-patricia/properties/property-16/S4.jpg"
+    },
+    "/images/properties/property-16/S5.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-16/S5",
+      "version": 1790278734,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278734/homestay-by-patricia/properties/property-16/S5.jpg"
+    },
+    "/images/properties/property-16/S6.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-16/S6",
+      "version": 1790278735,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278735/homestay-by-patricia/properties/property-16/S6.jpg"
+    },
+    "/images/properties/property-16/S7.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-16/S7",
+      "version": 1790278735,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278735/homestay-by-patricia/properties/property-16/S7.jpg"
+    },
+    "/images/properties/property-16/S8.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-16/S8",
+      "version": 1790278735,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278735/homestay-by-patricia/properties/property-16/S8.jpg"
+    },
+    "/images/properties/property-16/S9.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-16/S9",
+      "version": 1790278736,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278736/homestay-by-patricia/properties/property-16/S9.jpg"
+    },
+    "/images/properties/property-17/D1.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-17/D1",
+      "version": 1790278736,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278736/homestay-by-patricia/properties/property-17/D1.jpg"
+    },
+    "/images/properties/property-17/D2.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-17/D2",
+      "version": 1790278736,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278736/homestay-by-patricia/properties/property-17/D2.jpg"
+    },
+    "/images/properties/property-17/D3.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-17/D3",
+      "version": 1790278736,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278736/homestay-by-patricia/properties/property-17/D3.jpg"
+    },
+    "/images/properties/property-17/D4.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-17/D4",
+      "version": 1790278736,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278736/homestay-by-patricia/properties/property-17/D4.jpg"
+    },
+    "/images/properties/property-17/D5.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-17/D5",
+      "version": 1790278737,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278737/homestay-by-patricia/properties/property-17/D5.jpg"
+    },
+    "/images/properties/property-17/D6.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-17/D6",
+      "version": 1790278737,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278737/homestay-by-patricia/properties/property-17/D6.jpg"
+    },
+    "/images/properties/property-17/D7.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-17/D7",
+      "version": 1790278737,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278737/homestay-by-patricia/properties/property-17/D7.jpg"
+    },
+    "/images/properties/property-17/D9.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-17/D9",
+      "version": 1790278738,
+      "width": 810,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278738/homestay-by-patricia/properties/property-17/D9.jpg"
+    },
+    "/images/properties/property-18/X1.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-18/X1",
+      "version": 1790278738,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278738/homestay-by-patricia/properties/property-18/X1.jpg"
+    },
+    "/images/properties/property-18/X10.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-18/X10",
+      "version": 1790278738,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278738/homestay-by-patricia/properties/property-18/X10.jpg"
+    },
+    "/images/properties/property-18/X2.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-18/X2",
+      "version": 1790278738,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278738/homestay-by-patricia/properties/property-18/X2.jpg"
+    },
+    "/images/properties/property-18/X3.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-18/X3",
+      "version": 1790278738,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278738/homestay-by-patricia/properties/property-18/X3.jpg"
+    },
+    "/images/properties/property-18/X4.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-18/X4",
+      "version": 1790278739,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278739/homestay-by-patricia/properties/property-18/X4.jpg"
+    },
+    "/images/properties/property-18/X5.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-18/X5",
+      "version": 1790278739,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278739/homestay-by-patricia/properties/property-18/X5.jpg"
+    },
+    "/images/properties/property-18/X6.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-18/X6",
+      "version": 1790278739,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278739/homestay-by-patricia/properties/property-18/X6.jpg"
+    },
+    "/images/properties/property-18/X9.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-18/X9",
+      "version": 1790278740,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278740/homestay-by-patricia/properties/property-18/X9.jpg"
+    },
+    "/images/properties/property-18/X7.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-18/X7",
+      "version": 1790278740,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278740/homestay-by-patricia/properties/property-18/X7.jpg"
+    },
+    "/images/properties/property-18/X8.jpeg": {
+      "publicId": "homestay-by-patricia/properties/property-18/X8",
+      "version": 1790278740,
+      "width": 960,
+      "height": 1280,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278740/homestay-by-patricia/properties/property-18/X8.jpg"
+    },
+    "/images/property-hero.jpeg": {
+      "publicId": "homestay-by-patricia/home/property-hero",
+      "version": 1790279022,
+      "width": 1284,
+      "height": 722,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790279022/homestay-by-patricia/home/property-hero.jpg"
+    },
+    "/images/sutera-hero-staircase.jpg": {
+      "publicId": "homestay-by-patricia/sutera-hero-staircase",
+      "version": 1790278741,
+      "width": 1920,
+      "height": 1080,
+      "format": "jpg",
+      "secureUrl": "https://res.cloudinary.com/j8fnep3s/image/upload/v1790278741/homestay-by-patricia/sutera-hero-staircase.jpg"
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "metrics": {
+    "performance": 99,
+    "fcp_ms": 316.608,
+    "lcp_ms": 751.8240000000001,
+    "tbt_ms": 95,
+    "cls": 0,
+    "ttfb_ms": 13.657999999999998,
+    "si_ms": 545.4713080389815,
+    "inp_ms": null
+  },
+  "lcpElement": {
+    "type": "table",
+    "headings": [
+      {
+        "key": "node",
+        "valueType": "node",
+        "label": "Element"
+      }
+    ],
+    "items": [
+      {
+        "node": {
+          "type": "node",
+          "lhId": "page-0-IMG",
+          "path": "1,HTML,1,BODY,3,MAIN,1,SECTION,0,ARTICLE,0,BUTTON,0,IMG",
+          "selector": "section.site-container > article.gallery-signature > button.group > img.image-cover",
+          "boundingRect": {
+            "top": 292,
+            "bottom": 703,
+            "left": 133,
+            "right": 790,
+            "width": 657,
+            "height": 411
+          },
+          "snippet": "<img alt=\"Designer living room at The Gallery Residence\" decoding=\"async\" data-nimg=\"fill\" class=\"image-cover image-zoom\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" sizes=\"(min-width: 768px) 62vw, 100vw\" srcset=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_lim…\" src=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_1080,c_li…\">",
+          "nodeLabel": "Designer living room at The Gallery Residence"
+        }
+      }
+    ]
+  },
+  "requests": 40,
+  "imageRequests": 10,
+  "imageBytes": 271409,
+  "totalBytes": 589964,
+  "cloudinaryImageRequests": 10,
+  "localImageRequests": 0,
+  "oversized": [
+    {
+      "node": {
+        "type": "node",
+        "lhId": "1-3-IMG",
+        "path": "1,HTML,1,BODY,3,MAIN,1,SECTION,0,ARTICLE,0,BUTTON,0,IMG",
+        "selector": "section.site-container > article.gallery-signature > button.group > img.image-cover",
+        "boundingRect": {
+          "top": 292,
+          "bottom": 703,
+          "left": 133,
+          "right": 790,
+          "width": 657,
+          "height": 411
+        },
+        "snippet": "<img alt=\"Designer living room at The Gallery Residence\" decoding=\"async\" data-nimg=\"fill\" class=\"image-cover image-zoom\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" sizes=\"(min-width: 768px) 62vw, 100vw\" srcset=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_640,c_lim…\" src=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_1080,c_li…\">",
+        "nodeLabel": "Designer living room at The Gallery Residence"
+      },
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_1080,c_limit/homestay-by-patricia/properties/property-18/X2",
+      "totalBytes": 99856,
+      "wastedBytes": 77913,
+      "wastedPercent": 78.025146484375
+    },
+    {
+      "node": {
+        "type": "node",
+        "lhId": "1-4-IMG",
+        "path": "1,HTML,1,BODY,3,MAIN,1,SECTION,1,SECTION,3,DIV,0,DIV,0,ARTICLE,0,BUTTON,0,IMG",
+        "selector": "div.gallery-rail-track > article.gallery-rail-card > button.relative > img.image-cover",
+        "boundingRect": {
+          "top": 1051,
+          "bottom": 1446,
+          "left": -732,
+          "right": -416,
+          "width": 316,
+          "height": 395
+        },
+        "snippet": "<img alt=\"Balcony view from the Skyline Balcony Residence\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"image-cover image-zoom\" style=\"position: absolute; height: 100%; width: 100%; inset: 0px;\" sizes=\"(min-width: 1024px) 25vw, (min-width: 640px) 42vw, 78vw\" srcset=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_256,c_lim…\" src=\"https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_lim…\">",
+        "nodeLabel": "Balcony view from the Skyline Balcony Residence"
+      },
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-2",
+      "totalBytes": 46854,
+      "wastedBytes": 17108,
+      "wastedPercent": 36.513264973958336
+    }
+  ],
+  "offscreen": [],
+  "duplicates": [],
+  "cloudinarySample": [
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_1080,c_limit/homestay-by-patricia/properties/property-18/X2",
+      "transfer": 100529,
+      "mime": "image/webp",
+      "priority": "High",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_48,c_limit/homestay-by-patricia/brand/patricia/WhatsApp-Image-2026-09-15-at-11.46.16",
+      "transfer": 3002,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-2",
+      "transfer": 47515,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-06/1",
+      "transfer": 21204,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-07/H4",
+      "transfer": 15211,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-08/WhatsApp-Image-2026-09-17-at-11.06.50",
+      "transfer": 13233,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-09/Q2",
+      "transfer": 15709,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-10/K3",
+      "transfer": 12580,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-11/W2",
+      "transfer": 22860,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-12/A4",
+      "transfer": 19566,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    }
+  ],
+  "imageSummary": [
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_1080,c_limit/homestay-by-patricia/properties/property-18/X2",
+      "transfer": 100529,
+      "mime": "image/webp",
+      "priority": "High",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_48,c_limit/homestay-by-patricia/brand/patricia/WhatsApp-Image-2026-09-15-at-11.46.16",
+      "transfer": 3002,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-2",
+      "transfer": 47515,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-06/1",
+      "transfer": 21204,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-07/H4",
+      "transfer": 15211,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-08/WhatsApp-Image-2026-09-17-at-11.06.50",
+      "transfer": 13233,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-09/Q2",
+      "transfer": 15709,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-10/K3",
+      "transfer": 12580,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-11/W2",
+      "transfer": 22860,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    },
+    {
+      "url": "https://res.cloudinary.com/j8fnep3s/image/upload/f_auto,q_auto,w_384,c_limit/homestay-by-patricia/properties/property-12/A4",
+      "transfer": 19566,
+      "mime": "image/webp",
+      "priority": "Low",
+      "status": 200
+    }
+  ]
+}

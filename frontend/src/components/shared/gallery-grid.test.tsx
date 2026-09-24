@@ -9,11 +9,16 @@ describe("GalleryGrid", () => {
     render(<GalleryGrid properties={galleryProperties} />);
 
     fireEvent.click(screen.getByRole("button", { name: "Homes" }));
-    expect(screen.getByRole("button", { name: "Open Garden Light Residence gallery" })).toBeInTheDocument();
+    // Rail marquee duplicates items for seamless scroll — assert at least one match.
+    expect(screen.getAllByRole("button", { name: "Open Garden Light Residence gallery" }).length).toBeGreaterThan(0);
     expect(screen.queryByRole("button", { name: "Open Skyline Balcony Residence gallery" })).not.toBeInTheDocument();
 
-    fireEvent.change(screen.getByRole("searchbox", { name: "Search stays" }), { target: { value: "parkside" } });
-    expect(screen.getByRole("button", { name: "Open Parkside Contemporary Home gallery" })).toBeInTheDocument();
+    fireEvent.change(screen.getByRole("searchbox", { name: "Search stays" }), {
+      target: { value: "parkside" },
+    });
+    expect(
+      screen.getAllByRole("button", { name: "Open Parkside Contemporary Home gallery" }).length,
+    ).toBeGreaterThan(0);
     expect(screen.queryByRole("button", { name: "Open Garden Light Residence gallery" })).not.toBeInTheDocument();
   });
 });

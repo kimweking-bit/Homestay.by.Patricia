@@ -1,0 +1,756 @@
+{
+  "generatedAt": "2026-09-24T19:38:26.965Z",
+  "usedCount": 129,
+  "existingCount": 123,
+  "uniqueFiles": 123,
+  "missing": [
+    "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.31 (1).jpeg"
+  ],
+  "skipped": [
+    "/images/properties/property-01 (dir)",
+    "/images/properties/property-02 (dir)",
+    "/images/properties/property-03 (dir)",
+    "/images/properties/property-04 (dir)",
+    "/images/properties/property-05 (dir)"
+  ],
+  "items": [
+    {
+      "localPath": "/images/brand/patricia/WhatsApp Image 2026-09-15 at 11.46.16.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\brand\\patricia\\WhatsApp Image 2026-09-15 at 11.46.16.jpeg",
+      "publicId": "homestay-by-patricia/brand/patricia/WhatsApp-Image-2026-09-15-at-11.46.16",
+      "size": 144472
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.28 (1).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.28 (1).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.28-1",
+      "size": 123823
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.28.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.28.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.28",
+      "size": 89851
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.29.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.29.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.29",
+      "size": 129738
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.30.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.30.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.30",
+      "size": 65838
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.31.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.31.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.31",
+      "size": 107018
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.32.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.32.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.32",
+      "size": 343613
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.33 (1).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.33 (1).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.33-1",
+      "size": 91960
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.33.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.33.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.33",
+      "size": 156511
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.34 (1).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.34 (1).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.34-1",
+      "size": 69140
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.34 (2).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.34 (2).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.34-2",
+      "size": 194401
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.34.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.34.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.34",
+      "size": 161979
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.35 (1).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.35 (1).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35-1",
+      "size": 100924
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.35 (2).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.35 (2).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35-2",
+      "size": 82747
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.35 (3).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.35 (3).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35-3",
+      "size": 48501
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.35.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.35.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.35",
+      "size": 57488
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.36 (1).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.36 (1).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.36-1",
+      "size": 155722
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.36 (2).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.36 (2).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.36-2",
+      "size": 220385
+    },
+    {
+      "localPath": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.36.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-01\\patricia pics\\WhatsApp Image 2026-09-14 at 17.48.36.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-01/patricia-pics/WhatsApp-Image-2026-09-14-at-17.48.36",
+      "size": 142014
+    },
+    {
+      "localPath": "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (1).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-05\\WhatsApp Image 2026-09-17 at 11.04.27 (1).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-1",
+      "size": 149955
+    },
+    {
+      "localPath": "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (2).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-05\\WhatsApp Image 2026-09-17 at 11.04.27 (2).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-2",
+      "size": 289390
+    },
+    {
+      "localPath": "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (3).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-05\\WhatsApp Image 2026-09-17 at 11.04.27 (3).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-3",
+      "size": 248325
+    },
+    {
+      "localPath": "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (4).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-05\\WhatsApp Image 2026-09-17 at 11.04.27 (4).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27-4",
+      "size": 139764
+    },
+    {
+      "localPath": "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-05\\WhatsApp Image 2026-09-17 at 11.04.27.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.27",
+      "size": 147571
+    },
+    {
+      "localPath": "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.28 (1).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-05\\WhatsApp Image 2026-09-17 at 11.04.28 (1).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.28-1",
+      "size": 152748
+    },
+    {
+      "localPath": "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.28.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-05\\WhatsApp Image 2026-09-17 at 11.04.28.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-05/WhatsApp-Image-2026-09-17-at-11.04.28",
+      "size": 127850
+    },
+    {
+      "localPath": "/images/properties/property-06/1.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-06\\1.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-06/1",
+      "size": 75701
+    },
+    {
+      "localPath": "/images/properties/property-06/3.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-06\\3.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-06/3",
+      "size": 62202
+    },
+    {
+      "localPath": "/images/properties/property-06/4.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-06\\4.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-06/4",
+      "size": 65502
+    },
+    {
+      "localPath": "/images/properties/property-06/5.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-06\\5.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-06/5",
+      "size": 73473
+    },
+    {
+      "localPath": "/images/properties/property-06/WhatsApp Image 2026-09-17 at 11.06.53.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-06\\WhatsApp Image 2026-09-17 at 11.06.53.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-06/WhatsApp-Image-2026-09-17-at-11.06.53",
+      "size": 62224
+    },
+    {
+      "localPath": "/images/properties/property-07/H1.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-07\\H1.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-07/H1",
+      "size": 144230
+    },
+    {
+      "localPath": "/images/properties/property-07/H2.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-07\\H2.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-07/H2",
+      "size": 171528
+    },
+    {
+      "localPath": "/images/properties/property-07/H3.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-07\\H3.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-07/H3",
+      "size": 182044
+    },
+    {
+      "localPath": "/images/properties/property-07/H4.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-07\\H4.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-07/H4",
+      "size": 143437
+    },
+    {
+      "localPath": "/images/properties/property-07/H5.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-07\\H5.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-07/H5",
+      "size": 221576
+    },
+    {
+      "localPath": "/images/properties/property-07/H6.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-07\\H6.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-07/H6",
+      "size": 169163
+    },
+    {
+      "localPath": "/images/properties/property-07/H7.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-07\\H7.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-07/H7",
+      "size": 191035
+    },
+    {
+      "localPath": "/images/properties/property-08/WhatsApp Image 2026-09-17 at 11.06.50 (1).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-08\\WhatsApp Image 2026-09-17 at 11.06.50 (1).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-08/WhatsApp-Image-2026-09-17-at-11.06.50-1",
+      "size": 56785
+    },
+    {
+      "localPath": "/images/properties/property-08/WhatsApp Image 2026-09-17 at 11.06.50 (2).jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-08\\WhatsApp Image 2026-09-17 at 11.06.50 (2).jpeg",
+      "publicId": "homestay-by-patricia/properties/property-08/WhatsApp-Image-2026-09-17-at-11.06.50-2",
+      "size": 56028
+    },
+    {
+      "localPath": "/images/properties/property-08/WhatsApp Image 2026-09-17 at 11.06.50.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-08\\WhatsApp Image 2026-09-17 at 11.06.50.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-08/WhatsApp-Image-2026-09-17-at-11.06.50",
+      "size": 58368
+    },
+    {
+      "localPath": "/images/properties/property-09/Q1.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-09\\Q1.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-09/Q1",
+      "size": 79941
+    },
+    {
+      "localPath": "/images/properties/property-09/Q2.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-09\\Q2.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-09/Q2",
+      "size": 101229
+    },
+    {
+      "localPath": "/images/properties/property-09/Q3.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-09\\Q3.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-09/Q3",
+      "size": 103963
+    },
+    {
+      "localPath": "/images/properties/property-09/Q4.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-09\\Q4.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-09/Q4",
+      "size": 138167
+    },
+    {
+      "localPath": "/images/properties/property-10/K1.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-10\\K1.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-10/K1",
+      "size": 35884
+    },
+    {
+      "localPath": "/images/properties/property-10/K2.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-10\\K2.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-10/K2",
+      "size": 23357
+    },
+    {
+      "localPath": "/images/properties/property-10/K3.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-10\\K3.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-10/K3",
+      "size": 115128
+    },
+    {
+      "localPath": "/images/properties/property-10/K4.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-10\\K4.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-10/K4",
+      "size": 94357
+    },
+    {
+      "localPath": "/images/properties/property-10/K5.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-10\\K5.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-10/K5",
+      "size": 27383
+    },
+    {
+      "localPath": "/images/properties/property-10/K6.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-10\\K6.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-10/K6",
+      "size": 31463
+    },
+    {
+      "localPath": "/images/properties/property-10/K7.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-10\\K7.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-10/K7",
+      "size": 64660
+    },
+    {
+      "localPath": "/images/properties/property-10/K8.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-10\\K8.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-10/K8",
+      "size": 33244
+    },
+    {
+      "localPath": "/images/properties/property-11/W1.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-11\\W1.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-11/W1",
+      "size": 172100
+    },
+    {
+      "localPath": "/images/properties/property-11/W2.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-11\\W2.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-11/W2",
+      "size": 198786
+    },
+    {
+      "localPath": "/images/properties/property-11/W3.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-11\\W3.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-11/W3",
+      "size": 201971
+    },
+    {
+      "localPath": "/images/properties/property-11/W4.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-11\\W4.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-11/W4",
+      "size": 199226
+    },
+    {
+      "localPath": "/images/properties/property-11/W5.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-11\\W5.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-11/W5",
+      "size": 135772
+    },
+    {
+      "localPath": "/images/properties/property-11/W6.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-11\\W6.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-11/W6",
+      "size": 197129
+    },
+    {
+      "localPath": "/images/properties/property-11/W7.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-11\\W7.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-11/W7",
+      "size": 192040
+    },
+    {
+      "localPath": "/images/properties/property-11/W8.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-11\\W8.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-11/W8",
+      "size": 223660
+    },
+    {
+      "localPath": "/images/properties/property-12/A1.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-12\\A1.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-12/A1",
+      "size": 187747
+    },
+    {
+      "localPath": "/images/properties/property-12/A2.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-12\\A2.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-12/A2",
+      "size": 143346
+    },
+    {
+      "localPath": "/images/properties/property-12/A3.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-12\\A3.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-12/A3",
+      "size": 169911
+    },
+    {
+      "localPath": "/images/properties/property-12/A4.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-12\\A4.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-12/A4",
+      "size": 172057
+    },
+    {
+      "localPath": "/images/properties/property-13/Z1.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-13\\Z1.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-13/Z1",
+      "size": 159347
+    },
+    {
+      "localPath": "/images/properties/property-13/Z10.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-13\\Z10.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-13/Z10",
+      "size": 137523
+    },
+    {
+      "localPath": "/images/properties/property-13/Z2.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-13\\Z2.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-13/Z2",
+      "size": 168281
+    },
+    {
+      "localPath": "/images/properties/property-13/Z3.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-13\\Z3.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-13/Z3",
+      "size": 167228
+    },
+    {
+      "localPath": "/images/properties/property-13/Z4.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-13\\Z4.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-13/Z4",
+      "size": 91735
+    },
+    {
+      "localPath": "/images/properties/property-13/Z5.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-13\\Z5.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-13/Z5",
+      "size": 241723
+    },
+    {
+      "localPath": "/images/properties/property-13/Z6.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-13\\Z6.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-13/Z6",
+      "size": 528221
+    },
+    {
+      "localPath": "/images/properties/property-13/Z7.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-13\\Z7.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-13/Z7",
+      "size": 168643
+    },
+    {
+      "localPath": "/images/properties/property-13/Z8.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-13\\Z8.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-13/Z8",
+      "size": 139618
+    },
+    {
+      "localPath": "/images/properties/property-13/Z9.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-13\\Z9.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-13/Z9",
+      "size": 145874
+    },
+    {
+      "localPath": "/images/properties/property-14/E1.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-14\\E1.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-14/E1",
+      "size": 85521
+    },
+    {
+      "localPath": "/images/properties/property-14/E10.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-14\\E10.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-14/E10",
+      "size": 68734
+    },
+    {
+      "localPath": "/images/properties/property-14/E2.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-14\\E2.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-14/E2",
+      "size": 86816
+    },
+    {
+      "localPath": "/images/properties/property-14/E3.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-14\\E3.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-14/E3",
+      "size": 85245
+    },
+    {
+      "localPath": "/images/properties/property-14/E4.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-14\\E4.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-14/E4",
+      "size": 79053
+    },
+    {
+      "localPath": "/images/properties/property-14/E5.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-14\\E5.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-14/E5",
+      "size": 76250
+    },
+    {
+      "localPath": "/images/properties/property-14/E6.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-14\\E6.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-14/E6",
+      "size": 50943
+    },
+    {
+      "localPath": "/images/properties/property-14/E7.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-14\\E7.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-14/E7",
+      "size": 128678
+    },
+    {
+      "localPath": "/images/properties/property-14/E8.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-14\\E8.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-14/E8",
+      "size": 126269
+    },
+    {
+      "localPath": "/images/properties/property-14/E9.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-14\\E9.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-14/E9",
+      "size": 182122
+    },
+    {
+      "localPath": "/images/properties/property-15/R1.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-15\\R1.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-15/R1",
+      "size": 73873
+    },
+    {
+      "localPath": "/images/properties/property-15/R2.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-15\\R2.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-15/R2",
+      "size": 82318
+    },
+    {
+      "localPath": "/images/properties/property-15/R3.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-15\\R3.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-15/R3",
+      "size": 73001
+    },
+    {
+      "localPath": "/images/properties/property-15/R4.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-15\\R4.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-15/R4",
+      "size": 69586
+    },
+    {
+      "localPath": "/images/properties/property-15/R5.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-15\\R5.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-15/R5",
+      "size": 81448
+    },
+    {
+      "localPath": "/images/properties/property-15/R6.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-15\\R6.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-15/R6",
+      "size": 64447
+    },
+    {
+      "localPath": "/images/properties/property-15/R7.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-15\\R7.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-15/R7",
+      "size": 189917
+    },
+    {
+      "localPath": "/images/properties/property-15/R8.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-15\\R8.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-15/R8",
+      "size": 82934
+    },
+    {
+      "localPath": "/images/properties/property-16/S1.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-16\\S1.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-16/S1",
+      "size": 98776
+    },
+    {
+      "localPath": "/images/properties/property-16/S10.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-16\\S10.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-16/S10",
+      "size": 105147
+    },
+    {
+      "localPath": "/images/properties/property-16/S2.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-16\\S2.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-16/S2",
+      "size": 104845
+    },
+    {
+      "localPath": "/images/properties/property-16/S3.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-16\\S3.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-16/S3",
+      "size": 116879
+    },
+    {
+      "localPath": "/images/properties/property-16/S4.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-16\\S4.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-16/S4",
+      "size": 170637
+    },
+    {
+      "localPath": "/images/properties/property-16/S5.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-16\\S5.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-16/S5",
+      "size": 137750
+    },
+    {
+      "localPath": "/images/properties/property-16/S6.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-16\\S6.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-16/S6",
+      "size": 113616
+    },
+    {
+      "localPath": "/images/properties/property-16/S7.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-16\\S7.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-16/S7",
+      "size": 114031
+    },
+    {
+      "localPath": "/images/properties/property-16/S8.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-16\\S8.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-16/S8",
+      "size": 183923
+    },
+    {
+      "localPath": "/images/properties/property-16/S9.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-16\\S9.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-16/S9",
+      "size": 221366
+    },
+    {
+      "localPath": "/images/properties/property-17/D1.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-17\\D1.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-17/D1",
+      "size": 55701
+    },
+    {
+      "localPath": "/images/properties/property-17/D2.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-17\\D2.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-17/D2",
+      "size": 49725
+    },
+    {
+      "localPath": "/images/properties/property-17/D3.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-17\\D3.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-17/D3",
+      "size": 59489
+    },
+    {
+      "localPath": "/images/properties/property-17/D4.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-17\\D4.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-17/D4",
+      "size": 61944
+    },
+    {
+      "localPath": "/images/properties/property-17/D5.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-17\\D5.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-17/D5",
+      "size": 45970
+    },
+    {
+      "localPath": "/images/properties/property-17/D6.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-17\\D6.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-17/D6",
+      "size": 90585
+    },
+    {
+      "localPath": "/images/properties/property-17/D7.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-17\\D7.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-17/D7",
+      "size": 63584
+    },
+    {
+      "localPath": "/images/properties/property-17/D9.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-17\\D9.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-17/D9",
+      "size": 83860
+    },
+    {
+      "localPath": "/images/properties/property-18/X1.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-18\\X1.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-18/X1",
+      "size": 104705
+    },
+    {
+      "localPath": "/images/properties/property-18/X10.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-18\\X10.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-18/X10",
+      "size": 131798
+    },
+    {
+      "localPath": "/images/properties/property-18/X2.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-18\\X2.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-18/X2",
+      "size": 114837
+    },
+    {
+      "localPath": "/images/properties/property-18/X3.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-18\\X3.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-18/X3",
+      "size": 87951
+    },
+    {
+      "localPath": "/images/properties/property-18/X4.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-18\\X4.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-18/X4",
+      "size": 125474
+    },
+    {
+      "localPath": "/images/properties/property-18/X5.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-18\\X5.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-18/X5",
+      "size": 133064
+    },
+    {
+      "localPath": "/images/properties/property-18/X6.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-18\\X6.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-18/X6",
+      "size": 243104
+    },
+    {
+      "localPath": "/images/properties/property-18/X7.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-18\\X7.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-18/X7",
+      "size": 153701
+    },
+    {
+      "localPath": "/images/properties/property-18/X8.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-18\\X8.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-18/X8",
+      "size": 126249
+    },
+    {
+      "localPath": "/images/properties/property-18/X9.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\properties\\property-18\\X9.jpeg",
+      "publicId": "homestay-by-patricia/properties/property-18/X9",
+      "size": 108597
+    },
+    {
+      "localPath": "/images/property-hero.jpeg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\property-hero.jpeg",
+      "publicId": "homestay-by-patricia/property-hero",
+      "size": 116613
+    },
+    {
+      "localPath": "/images/sutera-hero-staircase.jpg",
+      "absolutePath": "c:\\Users\\kimwe\\OneDrive\\Desktop\\AIRBNB\\Homestay.by.Patricia\\frontend\\public\\images\\sutera-hero-staircase.jpg",
+      "publicId": "homestay-by-patricia/sutera-hero-staircase",
+      "size": 221147
+    }
+  ]
+}
