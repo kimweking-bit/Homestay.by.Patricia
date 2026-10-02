@@ -31,16 +31,20 @@ cp frontend/.env.example frontend/.env.local
 cp backend/.env.example backend/.env
 ```
 
-Start the frontend:
+Start PGlite, the API, and the frontend together:
 
 ```bash
-npm run dev:frontend
+npm run dev
 ```
 
-Start the backend:
+The app is then at http://localhost:3000. Browser API calls go to `/api/v1` on that same origin; Next proxies them to the Nest API so session cookies work.
+
+To start the pieces separately:
 
 ```bash
+npm run dev:db
 npm run dev:backend
+npm run dev:frontend
 ```
 
 ## Verification

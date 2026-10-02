@@ -1,13 +1,15 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
+import { useQuery } from "@tanstack/react-query";
 import { DateRangePicker } from "@/components/shared/date-range-picker";
 import { Button } from "@/components/ui/button";
 import { Price } from "@/components/ui/price";
-import { getBlockedDates } from "@/lib/availability";
-import { bookingHref, formatMoney, nightsBetween } from "@/lib/booking";
+import { bookingHref, formatMoney, nightsBetween, rangeOverlapsBlocked } from "@/lib/booking";
 import type { Property } from "@/lib/mock-data";
 import { cn } from "@/lib/cn";
+import { apiErrorMessage } from "@/services/api-client";
+import { getAvailability } from "@/services/api/properties";
 
 type BookingPanelProps = {
   property: Property;
@@ -34,12 +36,23 @@ export function BookingPanel({
     return Math.min(2, Math.max(1, property.maxGuests));
   });
 
-  const blockedDates = useMemo(() => getBlockedDates(), []);
+  const availability = useQuery({
+    queryKey: ["availability", property.slug],
+    queryFn: () => getAvailability(property.slug),
+  });
+  const blockedDatesArray = availability.data?.blockedDates ?? [];
+  const blockedDates = new Set(blockedDatesArray);
 
   const nights = checkIn && checkOut ? nightsBetween(checkIn, checkOut) : null;
   const total = nights ? property.priceValue * nights : 0;
+  const datesBlocked = checkIn && checkOut ? rangeOverlapsBlocked(checkIn, checkOut, blockedDates) : false;
   const canRequest = Boolean(
-    nights && nights > 0 && guests >= 1 && guests <= property.maxGuests,
+    nights &&
+      nights > 0 &&
+      guests >= 1 &&
+      guests <= property.maxGuests &&
+      availability.isSuccess &&
+      !datesBlocked,
   );
 
   return (
@@ -102,6 +115,20 @@ export function BookingPanel({
           setCheckOut(nextOut);
         }}
       />
+
+      {availability.isError ? (
+        <p className="booking-panel-nudge text-[var(--color-danger)]" role="alert">
+          {apiErrorMessage(availability.error, "Availability could not be checked. Please try again.")}
+        </p>
+      ) : datesBlocked ? (
+        <p className="booking-panel-nudge text-[var(--color-danger)]" role="alert">
+          Those dates are not available. Please choose another range.
+        </p>
+      ) : availability.isPending ? (
+        <p className="booking-panel-nudge" role="status">
+          Checking current availability...
+        </p>
+      ) : null}
 
       {nights && nights > 0 ? (
         <div aria-live="polite" className="booking-panel-quote">

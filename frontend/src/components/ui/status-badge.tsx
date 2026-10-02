@@ -4,8 +4,11 @@ import { cn } from "@/lib/cn";
 
 const statusClassName: Record<BookingStatus, string> = {
   PENDING: "status-pending",
+  REQUESTED: "status-pending",
+  REVIEWING: "status-pending",
   CONFIRMED: "status-confirmed",
   REJECTED: "status-rejected",
+  DECLINED: "status-rejected",
   CANCELLED: "status-cancelled",
 };
 

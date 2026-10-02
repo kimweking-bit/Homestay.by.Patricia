@@ -2,19 +2,44 @@
 
 import { FormEvent, useState } from "react";
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
+import { useQueryClient } from "@tanstack/react-query";
 import { BrandMark } from "@/components/layout/brand-mark";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { brand } from "@/lib/brand";
+import { apiErrorMessage } from "@/services/api-client";
+import { loginAccount, registerAccount, type SessionUser } from "@/services/api/auth";
 
 type AuthMode = "login" | "signup" | "reset";
+
+function safeRedirectPath(nextPath: string | null, role: SessionUser["role"]) {
+  const fallback = role === "ADMIN" ? "/admin/dashboard" : "/account";
+  if (
+    !nextPath ||
+    !nextPath.startsWith("/") ||
+    nextPath.startsWith("//") ||
+    nextPath.includes("\\") ||
+    nextPath.startsWith("/login")
+  ) {
+    return fallback;
+  }
+  if (role !== "ADMIN" && nextPath.startsWith("/admin")) {
+    return "/account";
+  }
+  return nextPath;
+}
 
 export default function LoginPage() {
   const [mode, setMode] = useState<AuthMode>("login");
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const queryClient = useQueryClient();
 
-  function submit(event: FormEvent<HTMLFormElement>) {
+  async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const form = new FormData(event.currentTarget);
     const email = String(form.get("email") ?? "").trim();
@@ -24,16 +49,33 @@ export default function LoginPage() {
       return;
     }
 
-    setError("");
     if (mode === "reset") {
-      setMessage("Password reset will send from the account service once authentication is connected. No email has been sent yet.");
+      setError("Password reset is not available yet. Please contact Patricia for help.");
+      setMessage("");
       return;
     }
-    if (mode === "signup") {
-      setMessage("Account creation is prepared here. No guest account has been created yet — authentication still needs the Sutera Stays service.");
-      return;
+
+    setError("");
+    setMessage("");
+    setIsSubmitting(true);
+    try {
+      const user =
+        mode === "signup"
+          ? await registerAccount({
+              email,
+              password: String(form.get("password") ?? ""),
+              firstName: String(form.get("firstName") ?? "").trim(),
+              lastName: String(form.get("lastName") ?? "").trim(),
+              phone: String(form.get("phone") ?? "").trim() || undefined,
+            })
+          : await loginAccount({ email, password: String(form.get("password") ?? "") });
+      queryClient.setQueryData(["session"], user);
+      router.replace(safeRedirectPath(searchParams.get("next"), user.role));
+    } catch (submitError) {
+      setError(apiErrorMessage(submitError, "We could not complete sign-in. Please try again."));
+    } finally {
+      setIsSubmitting(false);
     }
-    setMessage("Sign-in is prepared here. Backend authentication is not connected, so no session has been started.");
   }
 
   return (
@@ -51,6 +93,15 @@ export default function LoginPage() {
       </p>
 
       <form className="mt-8 grid gap-5" onSubmit={submit}>
+        {mode === "signup" ? (
+          <>
+            <div className="grid gap-5 sm:grid-cols-2">
+              <Input autoComplete="given-name" label="First name" name="firstName" required />
+              <Input autoComplete="family-name" label="Last name" name="lastName" required />
+            </div>
+            <Input autoComplete="tel" label="Phone (optional)" name="phone" type="tel" />
+          </>
+        ) : null}
         <Input autoComplete="email" label="Email" name="email" required type="email" />
         {mode !== "reset" ? <Input autoComplete={mode === "signup" ? "new-password" : "current-password"} label="Password" name="password" required type="password" /> : null}
         {error ? (
@@ -63,7 +114,15 @@ export default function LoginPage() {
             {message}
           </p>
         ) : null}
-        <Button type="submit">{mode === "signup" ? "Create account" : mode === "reset" ? "Send reset link" : "Sign in"}</Button>
+        <Button disabled={isSubmitting} type="submit">
+          {isSubmitting
+            ? "Please wait..."
+            : mode === "signup"
+              ? "Create account"
+              : mode === "reset"
+                ? "Get help"
+                : "Sign in"}
+        </Button>
       </form>
 
       <div className="mt-6 grid gap-2 type-small text-[var(--muted)]">

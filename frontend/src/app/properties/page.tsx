@@ -2,9 +2,32 @@ import { AppImage } from "@/components/ui/app-image";
 import { EmptyState } from "@/components/shared/empty-state";
 import { StaysExplorer } from "@/components/shared/stays-explorer";
 import { brand } from "@/lib/brand";
-import { properties } from "@/lib/mock-data";
+import { apiErrorMessage } from "@/services/api-client";
+import { listProperties } from "@/services/api/properties";
 
-export default function PropertiesPage() {
+export const dynamic = "force-dynamic";
+
+export default async function PropertiesPage() {
+  let properties;
+  try {
+    ({ items: properties } = await listProperties());
+  } catch (error) {
+    return (
+      <section className="site-container section-y">
+        <EmptyState
+          eyebrow="Stays"
+          title="Stays could not be loaded"
+          text="The stay service is temporarily unavailable. Please try again shortly."
+          actionHref="/"
+          actionLabel="Back home"
+        />
+        <p className="type-small mt-4 text-[var(--color-danger)]" role="alert">
+          {apiErrorMessage(error, "The property service is unavailable.")}
+        </p>
+      </section>
+    );
+  }
+
   const count = properties.length;
   const atmosphere = properties.slice(0, 3);
 

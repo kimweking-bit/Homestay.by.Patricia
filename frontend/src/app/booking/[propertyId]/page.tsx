@@ -1,33 +1,44 @@
 "use client";
 
-import { FormEvent, useMemo, useState } from "react";
-import { AppImage } from "@/components/ui/app-image";
+import { useState, type FormEvent } from "react";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
+import Link from "next/link";
+import { useQuery } from "@tanstack/react-query";
+import { AppImage } from "@/components/ui/app-image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
-import { getBlockedDates } from "@/lib/availability";
 import { formatDisplayDate, formatMoney, nightsBetween, parseGuests, rangeOverlapsBlocked } from "@/lib/booking";
-import { properties } from "@/lib/mock-data";
+import { apiErrorMessage, ApiClientError } from "@/services/api-client";
+import { createBooking, quoteBooking } from "@/services/api/bookings";
+import { getAvailability, getProperty } from "@/services/api/properties";
 
 export default function BookingPage() {
   const params = useParams<{ propertyId: string }>();
   const searchParams = useSearchParams();
   const router = useRouter();
-  const property = useMemo(
-    () => properties.find((item) => item.id === params.propertyId || item.slug === params.propertyId),
-    [params.propertyId],
-  );
-  const blockedDates = useMemo(() => getBlockedDates(), []);
   const [error, setError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [needsSignIn, setNeedsSignIn] = useState(false);
+  const propertyQuery = useQuery({
+    queryKey: ["property", params.propertyId],
+    queryFn: () => getProperty(params.propertyId),
+  });
+  const property = propertyQuery.data;
+  const availabilityQuery = useQuery({
+    queryKey: ["availability", property?.slug],
+    queryFn: () => getAvailability(property?.slug ?? params.propertyId),
+    enabled: Boolean(property),
+  });
+  const blockedDatesArray = availabilityQuery.data?.blockedDates ?? [];
+  const blockedDates = new Set(blockedDatesArray);
 
   const initialCheckIn = searchParams.get("checkIn") ?? "";
   const initialCheckOut = searchParams.get("checkOut") ?? "";
   const initialGuests = property ? String(parseGuests(searchParams.get("guests") ?? undefined, property.maxGuests)) : "1";
 
-  function submitRequest(event: FormEvent<HTMLFormElement>) {
+  async function submitRequest(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!property) {
       return;
@@ -57,23 +68,52 @@ export default function BookingPage() {
 
     setError("");
     setIsSubmitting(true);
-    const query = new URLSearchParams({
-      checkIn,
-      checkOut,
-      guests: String(form.get("guests")),
-      property: property.slug,
-    });
-    window.setTimeout(() => router.push(`/booking-confirmation/demo-request?${query.toString()}`), 400);
+    setNeedsSignIn(false);
+    try {
+      const guests = Number(form.get("guests"));
+      const quote = await quoteBooking({
+        propertyId: property.id,
+        checkIn,
+        checkOut,
+        guests,
+      });
+      if (!quote.available) {
+        setError("Those dates are not available. Please choose another range.");
+        return;
+      }
+      const booking = await createBooking({
+        propertyId: property.id,
+        checkIn,
+        checkOut,
+        guests,
+        firstName: String(form.get("firstName") ?? "").trim(),
+        lastName: String(form.get("lastName") ?? "").trim(),
+        email: String(form.get("email") ?? "").trim(),
+        phone: String(form.get("phone") ?? "").trim(),
+        specialRequest: String(form.get("specialRequest") ?? "").trim() || undefined,
+      });
+      router.push(`/booking-confirmation/${encodeURIComponent(booking.reference)}`);
+    } catch (submitError) {
+      setNeedsSignIn(submitError instanceof ApiClientError && submitError.status === 401);
+      setError(apiErrorMessage(submitError, "We could not submit your booking request. Please try again."));
+    } finally {
+      setIsSubmitting(false);
+    }
   }
 
-  if (!property) {
+  if (propertyQuery.isPending) {
+    return <section className="site-container py-16" role="status">Loading stay details...</section>;
+  }
+
+  if (propertyQuery.isError || !property) {
     return (
       <section className="site-container py-16 md:py-24">
-        <h1 className="type-h1">This stay could not be found.</h1>
+        <h1 className="type-h1">This stay could not be loaded.</h1>
+        <p className="type-body mt-4 text-[var(--muted)]" role="alert">
+          {apiErrorMessage(propertyQuery.error, "The property service is temporarily unavailable.")}
+        </p>
         <div className="mt-8">
-          <Button href="/properties" variant="secondary">
-            Back to stays
-          </Button>
+          <Button href="/properties" variant="secondary">Back to stays</Button>
         </div>
       </section>
     );
@@ -111,8 +151,8 @@ export default function BookingPage() {
 
         <form className="mt-10 grid gap-5" onSubmit={submitRequest}>
           <div className="grid gap-5 sm:grid-cols-2">
-            <Input defaultValue={initialCheckIn} label="Check-in" name="checkIn" required type="date" />
-            <Input defaultValue={initialCheckOut} label="Check-out" name="checkOut" required type="date" />
+            <Input defaultValue={initialCheckIn} label="Check-in" min={new Date().toISOString().slice(0, 10)} name="checkIn" required type="date" />
+            <Input defaultValue={initialCheckOut} label="Check-out" min={new Date().toISOString().slice(0, 10)} name="checkOut" required type="date" />
           </div>
           <Select defaultValue={initialGuests} label="Guests" name="guests" options={guestOptions} required />
           <div className="grid gap-5 sm:grid-cols-2">
@@ -125,8 +165,21 @@ export default function BookingPage() {
           </div>
           <Textarea label="Special request" name="specialRequest" />
           {error ? (
-            <p className="type-body text-[var(--color-danger)]" role="alert">
-              {error}
+            <div role="alert">
+              <p className="type-body text-[var(--color-danger)]">{error}</p>
+              {needsSignIn ? (
+                <Link
+                  className="mt-2 inline-block font-semibold underline"
+                  href={`/login?next=${encodeURIComponent(`/booking/${params.propertyId}${searchParams.toString() ? `?${searchParams.toString()}` : ""}`)}`}
+                >
+                  Sign in or create an account to send this request
+                </Link>
+              ) : null}
+            </div>
+          ) : null}
+          {availabilityQuery.isError ? (
+            <p className="type-small text-[var(--color-danger)]" role="alert">
+              {apiErrorMessage(availabilityQuery.error, "Availability could not be checked.")}
             </p>
           ) : null}
           <Button disabled={isSubmitting} type="submit">
@@ -168,7 +221,7 @@ export default function BookingPage() {
           ) : null}
         </dl>
         <p className="type-small mt-5 text-[var(--muted)]">
-          Availability on this page reflects current reservation records in the demo. Patricia remains the source of truth once operations are connected.
+          Availability on this page reflects current reservation records. Patricia remains the source of truth when she confirms a stay.
         </p>
       </aside>
     </section>

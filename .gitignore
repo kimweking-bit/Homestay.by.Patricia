@@ -33,3 +33,15 @@ Thumbs.db
 # Prisma
 backend/prisma/*.db
 backend/prisma/*.db-journal
+backend/.data/
+backend/.tmp/
+frontend/.tmp/
+
+# Local extract used only during backend integration
+.integration_tmp/
+.tmp-npm/
+.env
+.env.local
+backend/.env
+node_modules/
+.next/

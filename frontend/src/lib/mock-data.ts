@@ -30,9 +30,17 @@ export type Property = {
   amenities: string[];
   houseRules: string[];
   rooms: PropertyRoom[];
+  status?: "DRAFT" | "PUBLISHED" | "ARCHIVED";
 };
 
-export type BookingStatus = "PENDING" | "CONFIRMED" | "REJECTED" | "CANCELLED";
+export type BookingStatus =
+  | "PENDING"
+  | "REQUESTED"
+  | "REVIEWING"
+  | "CONFIRMED"
+  | "REJECTED"
+  | "DECLINED"
+  | "CANCELLED";
 
 export const contactDetails = {
   email: "hello@homestaybypatricia.com",

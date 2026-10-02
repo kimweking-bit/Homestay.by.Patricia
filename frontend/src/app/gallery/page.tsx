@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
 import { GalleryGrid } from "@/components/shared/gallery-grid";
-import { properties } from "@/lib/mock-data";
+import { loadPublishedProperties } from "@/services/api/properties";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Gallery",
   description: "Explore Sutera Stays through the rooms, details, and shared spaces of each home.",
 };
 
-export default function GalleryPage() {
+export default async function GalleryPage() {
+  const properties = await loadPublishedProperties();
   const galleryProperties = properties.filter((property) => property.collection);
 
   return (

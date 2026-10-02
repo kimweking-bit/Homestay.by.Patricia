@@ -5,7 +5,12 @@ import { BookingPanel } from "@/components/shared/booking-panel";
 import { PropertyGallery } from "@/components/shared/property-gallery";
 import { Button } from "@/components/ui/button";
 import { brand } from "@/lib/brand";
-import { contactDetails, properties, reviews } from "@/lib/mock-data";
+import { contactDetails, reviews } from "@/lib/mock-data";
+import type { Property } from "@/lib/mock-data";
+import { apiErrorMessage } from "@/services/api-client";
+import { getProperty } from "@/services/api/properties";
+
+export const dynamic = "force-dynamic";
 
 type PropertyDetailPageProps = {
   params: Promise<{
@@ -20,21 +25,20 @@ type PropertyDetailPageProps = {
 
 export async function generateMetadata({ params }: PropertyDetailPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const property = properties.find((item) => item.slug === slug);
-
-  if (!property) {
+  try {
+    const property = await getProperty(slug);
+    return {
+      title: property.name,
+      description: property.shortDescription,
+      openGraph: {
+        title: `${property.name} | ${brand.name}`,
+        description: property.shortDescription,
+        images: [{ url: property.heroImage, alt: property.imageAlt }],
+      },
+    };
+  } catch {
     return { title: "Stay not found" };
   }
-
-  return {
-    title: property.name,
-    description: property.shortDescription,
-    openGraph: {
-      title: `${property.name} | ${brand.name}`,
-      description: property.shortDescription,
-      images: [{ url: property.heroImage, alt: property.imageAlt }],
-    },
-  };
 }
 
 const faqs = [
@@ -55,15 +59,16 @@ const faqs = [
 export default async function PropertyDetailPage({ params, searchParams }: PropertyDetailPageProps) {
   const { slug } = await params;
   const query = await searchParams;
-  const property = properties.find((item) => item.slug === slug);
-
-  if (!property) {
+  let property: Property;
+  try {
+    property = await getProperty(slug);
+  } catch (error) {
     return (
       <section className="site-container py-16 md:py-24">
         <p className="type-small mb-3 text-[var(--muted)]">Stay not found</p>
-        <h1 className="type-h1">This stay is not available.</h1>
+        <h1 className="type-h1">This stay could not be loaded.</h1>
         <p className="type-body-large mt-5 max-w-2xl text-[var(--muted)]">
-          The link may have changed, or this home may not be listed with Homestay by Patricia yet.
+          {apiErrorMessage(error, "The property service is temporarily unavailable. Please try again shortly.")}
         </p>
         <div className="mt-8">
           <Button href="/properties" variant="secondary">

@@ -1,10 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useState, type ReactNode } from "react";
 import { BrandMark } from "@/components/layout/brand-mark";
 import { cn } from "@/lib/cn";
+import { apiErrorMessage } from "@/services/api-client";
+import { logoutAccount } from "@/services/api/auth";
 
 const adminLinks = [
   ["/admin/dashboard", "Overview"],
@@ -17,7 +20,16 @@ const adminLinks = [
 
 export function AdminShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
+  const router = useRouter();
+  const queryClient = useQueryClient();
   const [open, setOpen] = useState(false);
+  const logout = useMutation({
+    mutationFn: logoutAccount,
+    onSuccess: () => {
+      queryClient.setQueryData(["session"], null);
+      router.replace("/");
+    },
+  });
 
   return (
     <div className="ops-shell min-h-screen lg:grid">
@@ -62,10 +74,25 @@ export function AdminShell({ children }: { children: ReactNode }) {
             Menu
           </button>
           <p className="text-sm font-semibold text-[var(--foreground)]">Sutera Stays · Host</p>
-          <Link className="text-sm font-semibold text-[var(--muted)] hover:text-[var(--foreground)]" href="/properties">
-            Guest site
-          </Link>
+          <div className="flex items-center gap-4">
+            <Link className="text-sm font-semibold text-[var(--muted)] hover:text-[var(--foreground)]" href="/properties">
+              Guest site
+            </Link>
+            <button
+              className="text-sm font-semibold text-[var(--muted)] hover:text-[var(--foreground)]"
+              disabled={logout.isPending}
+              onClick={() => logout.mutate()}
+              type="button"
+            >
+              {logout.isPending ? "Signing out..." : "Sign out"}
+            </button>
+          </div>
         </header>
+        {logout.isError ? (
+          <p className="px-4 pt-3 text-sm text-[var(--color-danger)] lg:px-8" role="alert">
+            {apiErrorMessage(logout.error, "Sign out failed. Please try again.")}
+          </p>
+        ) : null}
         <main className="px-4 py-6 lg:px-8 lg:py-8" id="main-content">
           {children}
         </main>

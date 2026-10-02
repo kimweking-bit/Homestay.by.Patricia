@@ -1,23 +1,41 @@
-import type { Metadata } from "next";
+"use client";
+
+import { useParams } from "next/navigation";
+import { useQuery } from "@tanstack/react-query";
 import { BrandMark } from "@/components/layout/brand-mark";
 import { Button } from "@/components/ui/button";
-import { formatDisplayDate, nightsBetween } from "@/lib/booking";
-import { properties } from "@/lib/mock-data";
+import { StatusBadge } from "@/components/ui/status-badge";
+import { formatDisplayDate } from "@/lib/booking";
+import { apiErrorMessage } from "@/services/api-client";
+import { getBooking } from "@/services/api/bookings";
 
-export const metadata: Metadata = {
-  title: "Request received",
-  description: "Patricia has received your Sutera Stays booking request and will review the dates before confirming.",
-};
+export default function BookingConfirmationPage() {
+  const params = useParams<{ bookingId: string }>();
+  const bookingQuery = useQuery({
+    queryKey: ["booking", params.bookingId],
+    queryFn: () => getBooking(params.bookingId),
+  });
 
-type PageProps = {
-  params: Promise<{ bookingId: string }>;
-  searchParams: Promise<{ checkIn?: string; checkOut?: string; guests?: string; property?: string }>;
-};
+  if (bookingQuery.isPending) {
+    return <section className="site-container py-16" role="status">Loading your booking request...</section>;
+  }
 
-export default async function BookingConfirmationPage({ searchParams }: PageProps) {
-  const query = await searchParams;
-  const property = properties.find((item) => item.slug === query.property) ?? properties[0];
-  const nights = query.checkIn && query.checkOut ? nightsBetween(query.checkIn, query.checkOut) : null;
+  if (bookingQuery.isError) {
+    return (
+      <section className="site-container py-16 md:py-24">
+        <h1 className="type-h1">Your booking could not be loaded.</h1>
+        <p className="type-body-large mt-5 text-[var(--muted)]" role="alert">
+          {apiErrorMessage(bookingQuery.error, "Sign in with the account used to submit this request.")}
+        </p>
+        <div className="mt-8 flex gap-3">
+          <Button href="/login">Sign in</Button>
+          <Button href="/properties" variant="secondary">Back to stays</Button>
+        </div>
+      </section>
+    );
+  }
+
+  const booking = bookingQuery.data;
 
   return (
     <section className="site-container py-16 md:py-24">
@@ -31,24 +49,27 @@ export default async function BookingConfirmationPage({ searchParams }: PageProp
 
         <dl className="mt-8 grid gap-4 border-y border-[var(--border)] py-6">
           <div className="flex justify-between gap-4 text-sm">
-            <dt className="text-[var(--muted)]">Stay</dt>
-            <dd className="font-semibold">{property.name}</dd>
+            <dt className="text-[var(--muted)]">Reference</dt>
+            <dd className="font-semibold">{booking.reference}</dd>
           </div>
-          {query.checkIn && query.checkOut ? (
-            <div className="flex justify-between gap-4 text-sm">
-              <dt className="text-[var(--muted)]">Dates</dt>
-              <dd className="font-semibold">
-                {formatDisplayDate(query.checkIn)} – {formatDisplayDate(query.checkOut)}
-                {nights ? ` · ${nights} nights` : ""}
-              </dd>
-            </div>
-          ) : null}
-          {query.guests ? (
-            <div className="flex justify-between gap-4 text-sm">
-              <dt className="text-[var(--muted)]">Guests</dt>
-              <dd className="font-semibold">{query.guests}</dd>
-            </div>
-          ) : null}
+          <div className="flex justify-between gap-4 text-sm">
+            <dt className="text-[var(--muted)]">Stay</dt>
+            <dd className="font-semibold">{booking.propertyName}</dd>
+          </div>
+          <div className="flex justify-between gap-4 text-sm">
+            <dt className="text-[var(--muted)]">Dates</dt>
+            <dd className="font-semibold">
+              {formatDisplayDate(booking.checkIn)} – {formatDisplayDate(booking.checkOut)} · {booking.nights} nights
+            </dd>
+          </div>
+          <div className="flex justify-between gap-4 text-sm">
+            <dt className="text-[var(--muted)]">Guests</dt>
+            <dd className="font-semibold">{booking.guests}</dd>
+          </div>
+          <div className="flex justify-between gap-4 text-sm">
+            <dt className="text-[var(--muted)]">Status</dt>
+            <dd><StatusBadge status={booking.status} /></dd>
+          </div>
         </dl>
 
         <ol className="mt-8 grid gap-5 sm:grid-cols-3">
@@ -68,9 +89,7 @@ export default async function BookingConfirmationPage({ searchParams }: PageProp
 
         <div className="mt-10 flex flex-wrap gap-3">
           <Button href="/account/bookings">View request status</Button>
-          <Button href="/properties" variant="secondary">
-            Back to stays
-          </Button>
+          <Button href="/properties" variant="secondary">Back to stays</Button>
         </div>
       </div>
     </section>

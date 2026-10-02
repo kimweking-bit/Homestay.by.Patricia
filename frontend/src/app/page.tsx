@@ -4,7 +4,9 @@ import { Button } from "@/components/ui/button";
 import { PropertyCard } from "@/components/shared/property-card";
 import { brand } from "@/lib/brand";
 import { imagePaths } from "@/lib/image-paths";
-import { properties } from "@/lib/mock-data";
+import { loadPublishedProperties } from "@/services/api/properties";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: `${brand.name} | Private homes worth remembering`,
@@ -41,10 +43,22 @@ const trustNotes = [
   },
 ];
 
-export default function HomePage() {
+export default async function HomePage() {
+  const properties = await loadPublishedProperties();
   const featured = properties[0];
   const moreStays = properties.slice(1, 4);
-  const storyPhotos = featured.galleryImages.slice(0, 3);
+  const storyPhotos = featured?.galleryImages.slice(0, 3) ?? [];
+
+  if (!featured) {
+    return (
+      <section className="site-container section-y">
+        <h1 className="type-h1">Make yourself at home.</h1>
+        <p className="type-body mt-4 max-w-2xl text-[var(--muted)]">
+          Stays will appear here when the catalog is ready.
+        </p>
+      </section>
+    );
+  }
 
   return (
     <>

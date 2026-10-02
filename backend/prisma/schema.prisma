@@ -7,3 +7,229 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+enum Role {
+  GUEST
+  ADMIN
+}
+
+enum PropertyStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum BookingStatus {
+  REQUESTED
+  REVIEWING
+  CONFIRMED
+  DECLINED
+  CANCELLED
+}
+
+model User {
+  id            String                 @id @default(uuid())
+  email         String                 @unique
+  passwordHash  String
+  firstName     String
+  lastName      String
+  phone         String?
+  role          Role                   @default(GUEST)
+  createdAt     DateTime               @default(now())
+  updatedAt     DateTime               @updatedAt
+  profile       GuestProfile?
+  bookings      Booking[]
+  statusChanges BookingStatusHistory[] @relation("StatusActor")
+  auditLogs     AuditLog[]
+  blocks        AvailabilityBlock[]
+
+  @@index([role])
+  @@map("users")
+}
+
+model GuestProfile {
+  id        String   @id @default(uuid())
+  userId    String   @unique
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("guest_profiles")
+}
+
+model Property {
+  id               String            @id
+  slug             String            @unique
+  name             String
+  shortDescription String
+  description      String
+  location         String
+  area             String
+  propertyType     String
+  collection       String?
+  bedrooms         Int
+  beds             Int
+  bathrooms        Int
+  maxGuests        Int
+  pricePerNight    Int
+  currency         String            @default("MYR")
+  status           PropertyStatus    @default(PUBLISHED)
+  imageAlt         String
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+  images           PropertyImage[]
+  amenities        PropertyAmenity[]
+  houseRules       PropertyHouseRule[]
+  rooms            PropertyRoom[]
+  bookings         Booking[]
+  blocks           AvailabilityBlock[]
+
+  @@index([status])
+  @@map("properties")
+}
+
+model PropertyImage {
+  id         String   @id @default(uuid())
+  propertyId String
+  property   Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  url        String
+  publicId   String?
+  alt        String?
+  caption    String?
+  category   String?
+  sortOrder  Int      @default(0)
+  createdAt  DateTime @default(now())
+
+  @@index([propertyId, sortOrder])
+  @@map("property_images")
+}
+
+model Amenity {
+  id         String            @id @default(uuid())
+  name       String            @unique
+  properties PropertyAmenity[]
+  createdAt  DateTime          @default(now())
+
+  @@map("amenities")
+}
+
+model PropertyAmenity {
+  propertyId String
+  amenityId  String
+  property   Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  amenity    Amenity  @relation(fields: [amenityId], references: [id], onDelete: Cascade)
+
+  @@id([propertyId, amenityId])
+  @@map("property_amenities")
+}
+
+model PropertyHouseRule {
+  id         String   @id @default(uuid())
+  propertyId String
+  property   Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  text       String
+  sortOrder  Int
+
+  @@index([propertyId, sortOrder])
+  @@map("property_house_rules")
+}
+
+model PropertyRoom {
+  id         String   @id @default(uuid())
+  propertyId String
+  property   Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  name       String
+  imageUrl   String
+  sortOrder  Int
+
+  @@index([propertyId, sortOrder])
+  @@map("property_rooms")
+}
+
+model Booking {
+  id             String                 @id @default(uuid())
+  reference      String                 @unique
+  userId         String
+  user           User                   @relation(fields: [userId], references: [id])
+  propertyId     String
+  property       Property               @relation(fields: [propertyId], references: [id])
+  checkIn        DateTime               @db.Date
+  checkOut       DateTime               @db.Date
+  guests         Int
+  nights         Int
+  nightlyRate    Int
+  estimatedTotal Int
+  currency       String
+  status         BookingStatus          @default(REQUESTED)
+  specialRequest String?
+  guestFirstName String
+  guestLastName  String
+  guestEmail     String
+  guestPhone     String
+  createdAt      DateTime               @default(now())
+  updatedAt      DateTime               @updatedAt
+  party          BookingGuest[]
+  history        BookingStatusHistory[]
+
+  @@index([userId, createdAt])
+  @@index([propertyId, status, checkIn, checkOut])
+  @@map("bookings")
+}
+
+model BookingGuest {
+  id        String  @id @default(uuid())
+  bookingId String
+  booking   Booking @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  firstName String
+  lastName  String
+  email     String?
+  phone     String?
+  isPrimary Boolean @default(false)
+
+  @@index([bookingId])
+  @@map("booking_guests")
+}
+
+model BookingStatusHistory {
+  id        String         @id @default(uuid())
+  bookingId String
+  booking   Booking        @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  oldStatus BookingStatus?
+  newStatus BookingStatus
+  actorId   String?
+  actor     User?          @relation("StatusActor", fields: [actorId], references: [id])
+  note      String?
+  createdAt DateTime       @default(now())
+
+  @@index([bookingId, createdAt])
+  @@map("booking_status_history")
+}
+
+model AvailabilityBlock {
+  id          String   @id @default(uuid())
+  propertyId  String
+  property    Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  date        DateTime @db.Date
+  note        String?
+  createdById String?
+  createdBy   User?    @relation(fields: [createdById], references: [id])
+  createdAt   DateTime @default(now())
+
+  @@unique([propertyId, date])
+  @@index([propertyId, date])
+  @@map("availability_blocks")
+}
+
+model AuditLog {
+  id         String   @id @default(uuid())
+  actorId    String?
+  actor      User?    @relation(fields: [actorId], references: [id])
+  action     String
+  entityType String
+  entityId   String?
+  note       String?
+  createdAt  DateTime @default(now())
+
+  @@index([entityType, entityId])
+  @@index([actorId, createdAt])
+  @@map("audit_logs")
+}

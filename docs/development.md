@@ -4,7 +4,7 @@
 
 - Node.js 24.15 or newer
 - npm 10 or newer
-- PostgreSQL for backend development once database-backed features begin
+- Local PGlite (started by `npm run dev` / `npm run dev:db`) for the API database
 
 ## Install
 
@@ -26,6 +26,8 @@ Do not commit real `.env`, `.env.local`, credentials, API keys, or secrets.
 ## Common Commands
 
 ```bash
+npm run dev
+npm run dev:db
 npm run dev:frontend
 npm run dev:backend
 npm run lint

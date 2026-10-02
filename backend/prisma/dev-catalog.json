@@ -1,0 +1,948 @@
+[
+  {
+    "id": "property-001",
+    "slug": "patricia-modern-terrace-homestay",
+    "name": "Patricia Modern Terrace Homestay",
+    "shortDescription": "A polished private terrace home with warm living spaces, multiple bedrooms, a balcony, and a quiet residential feel.",
+    "description": "This modern terrace homestay is arranged for families and small groups who want a comfortable private base in Selangor. The photographs show generous living and dining areas, a kitchen, several bedrooms, a balcony, and a bathroom, with a calm residential setting outside.",
+    "location": "Setia Alam, Selangor",
+    "area": "Setia Alam",
+    "propertyType": "Private terrace home",
+    "collection": null,
+    "bedrooms": 4,
+    "beds": 5,
+    "bathrooms": 2,
+    "maxGuests": 8,
+    "pricePerNight": 620,
+    "currency": "MYR",
+    "imageAlt": "Open living lounge with dining area at Patricia Modern Terrace Homestay",
+    "heroImage": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.33 (1).jpeg",
+    "galleryImages": [
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.33 (1).jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.31.jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.28.jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.35.jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.30.jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.35 (2).jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.29.jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.34 (2).jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.36 (1).jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.32.jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.36 (2).jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.36.jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.28 (1).jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.31.jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.33.jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.34 (1).jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.34.jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.35 (1).jpeg",
+      "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.35 (3).jpeg"
+    ],
+    "galleryCaptions": [
+      "Open lounge",
+      "Garden exterior",
+      "Living and dining",
+      "Dining table",
+      "Kitchen",
+      "Queen bedroom",
+      "Twin bedroom",
+      "Bunk room",
+      "Single bedroom",
+      "Balcony",
+      "TV lounge",
+      "Bathroom",
+      "Staircase",
+      "Dining corner",
+      "Kitchenette",
+      "Exterior facade",
+      "Living room detail",
+      "Stair lounge",
+      "Balcony bedroom"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Kitchen",
+      "Dining area",
+      "Balcony",
+      "Private bedrooms",
+      "Family living area"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are only confirmed after Patricia approves them."
+    ],
+    "rooms": [
+      {
+        "name": "Queen bedroom",
+        "image": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.35 (2).jpeg"
+      },
+      {
+        "name": "Twin bedroom",
+        "image": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.29.jpeg"
+      },
+      {
+        "name": "Bunk room",
+        "image": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.34 (2).jpeg"
+      },
+      {
+        "name": "Single bedroom",
+        "image": "/images/properties/property-01/patricia pics/WhatsApp Image 2026-09-14 at 17.48.36 (1).jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-005",
+    "slug": "skyline-balcony-residence",
+    "name": "Skyline Balcony Residence",
+    "shortDescription": "A polished apartment with a balcony, city outlook, and an easy open-plan living space.",
+    "description": "Designed for a relaxed city break, this apartment brings together a quiet bedroom, well-equipped kitchen, bright lounge, and a balcony looking across the skyline.",
+    "location": "Kuala Lumpur, Malaysia",
+    "area": "KLCC",
+    "propertyType": "Entire apartment",
+    "collection": "City stays",
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 1,
+    "maxGuests": 4,
+    "pricePerNight": 490,
+    "currency": "MYR",
+    "imageAlt": "Balcony view from the Skyline Balcony Residence",
+    "heroImage": "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (2).jpeg",
+    "galleryImages": [
+      "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (1).jpeg",
+      "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (2).jpeg",
+      "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (3).jpeg",
+      "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (4).jpeg",
+      "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27.jpeg",
+      "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.28 (1).jpeg",
+      "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.28.jpeg"
+    ],
+    "galleryCaptions": [
+      "Walk-in shower",
+      "Balcony view",
+      "Living room",
+      "Open kitchen",
+      "Bedroom",
+      "Dining nook",
+      "City-facing lounge"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Kitchen",
+      "Private bathroom",
+      "Living area"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Living room",
+        "image": "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.27 (3).jpeg"
+      },
+      {
+        "name": "Bedroom",
+        "image": "/images/properties/property-05/WhatsApp Image 2026-09-17 at 11.04.28.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-006",
+    "slug": "everyday-city-apartment",
+    "name": "The Everyday City Apartment",
+    "shortDescription": "A clean, convenient apartment with a dining table, compact kitchen, and calm bedroom.",
+    "description": "A practical base with the essentials set out clearly: a place to cook, eat, rest, and reset between plans in the city.",
+    "location": "Kuala Lumpur, Malaysia",
+    "area": "Bukit Bintang",
+    "propertyType": "Entire apartment",
+    "collection": "City stays",
+    "bedrooms": 1,
+    "beds": 2,
+    "bathrooms": 1,
+    "maxGuests": 3,
+    "pricePerNight": 280,
+    "currency": "MYR",
+    "imageAlt": "Dining room in The Everyday City Apartment",
+    "heroImage": "/images/properties/property-06/1.jpeg",
+    "galleryImages": [
+      "/images/properties/property-06/1.jpeg",
+      "/images/properties/property-06/3.jpeg",
+      "/images/properties/property-06/4.jpeg",
+      "/images/properties/property-06/5.jpeg",
+      "/images/properties/property-06/WhatsApp Image 2026-09-17 at 11.06.53.jpeg"
+    ],
+    "galleryCaptions": [
+      "Dining room",
+      "Kitchen",
+      "Bedroom",
+      "Bathroom",
+      "Living space"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Kitchen",
+      "Private bathroom",
+      "Living area"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Dining room",
+        "image": "/images/properties/property-06/1.jpeg"
+      },
+      {
+        "name": "Bedroom",
+        "image": "/images/properties/property-06/4.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-007",
+    "slug": "midnight-modern-home",
+    "name": "Midnight Modern Home",
+    "shortDescription": "A dark-toned modern home with handsome bedrooms, a generous kitchen, and considered lighting.",
+    "description": "This home balances crisp modern finishes with bedrooms that feel settled and private, making it a natural fit for family or group stays.",
+    "location": "Malaysia",
+    "area": "Petaling Jaya",
+    "propertyType": "Entire home",
+    "collection": "Homes",
+    "bedrooms": 3,
+    "beds": 4,
+    "bathrooms": 2,
+    "maxGuests": 6,
+    "pricePerNight": 530,
+    "currency": "MYR",
+    "imageAlt": "Modern bedroom in the Midnight Modern Home",
+    "heroImage": "/images/properties/property-07/H4.jpeg",
+    "galleryImages": [
+      "/images/properties/property-07/H1.jpeg",
+      "/images/properties/property-07/H2.jpeg",
+      "/images/properties/property-07/H3.jpeg",
+      "/images/properties/property-07/H4.jpeg",
+      "/images/properties/property-07/H5.jpeg",
+      "/images/properties/property-07/H6.jpeg",
+      "/images/properties/property-07/H7.jpeg"
+    ],
+    "galleryCaptions": [
+      "Kitchen",
+      "Primary bedroom",
+      "Twin room",
+      "Second bedroom",
+      "Bathroom",
+      "Lounge",
+      "Dining area"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Kitchen",
+      "Private bathroom",
+      "Living area",
+      "Dining area"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Primary bedroom",
+        "image": "/images/properties/property-07/H2.jpeg"
+      },
+      {
+        "name": "Twin room",
+        "image": "/images/properties/property-07/H3.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-008",
+    "slug": "warmwood-studio",
+    "name": "Warmwood Studio",
+    "shortDescription": "A simple, sunny studio with a timber bedframe, fan, workspace, and room to settle in.",
+    "description": "A compact studio with the small details in place for an uncomplicated stay: a comfortable bed, daylight, and a useful desk.",
+    "location": "Malaysia",
+    "area": "Cheras",
+    "propertyType": "Entire studio",
+    "collection": "City stays",
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "maxGuests": 2,
+    "pricePerNight": 220,
+    "currency": "MYR",
+    "imageAlt": "Bedroom in the Warmwood Studio",
+    "heroImage": "/images/properties/property-08/WhatsApp Image 2026-09-17 at 11.06.50.jpeg",
+    "galleryImages": [
+      "/images/properties/property-08/WhatsApp Image 2026-09-17 at 11.06.50.jpeg",
+      "/images/properties/property-08/WhatsApp Image 2026-09-17 at 11.06.50 (1).jpeg",
+      "/images/properties/property-08/WhatsApp Image 2026-09-17 at 11.06.50 (2).jpeg"
+    ],
+    "galleryCaptions": [
+      "Studio bedroom",
+      "Bed detail",
+      "Window-side room"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Workspace",
+      "Private bathroom"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Studio room",
+        "image": "/images/properties/property-08/WhatsApp Image 2026-09-17 at 11.06.50.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-009",
+    "slug": "slate-city-suite",
+    "name": "Slate City Suite",
+    "shortDescription": "A quietly dramatic city suite with dark finishes, an intimate lounge, and a refined bathroom.",
+    "description": "For guests who prefer an atmospheric, modern setting, this suite layers charcoal finishes with warm lighting and a self-contained layout.",
+    "location": "Kuala Lumpur, Malaysia",
+    "area": "Bangsar",
+    "propertyType": "Entire apartment",
+    "collection": "City stays",
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "maxGuests": 3,
+    "pricePerNight": 420,
+    "currency": "MYR",
+    "imageAlt": "Living room in the Slate City Suite",
+    "heroImage": "/images/properties/property-09/Q2.jpeg",
+    "galleryImages": [
+      "/images/properties/property-09/Q1.jpeg",
+      "/images/properties/property-09/Q2.jpeg",
+      "/images/properties/property-09/Q3.jpeg",
+      "/images/properties/property-09/Q4.jpeg"
+    ],
+    "galleryCaptions": [
+      "Kitchen",
+      "Living room",
+      "Bathroom",
+      "Bedroom"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Kitchen",
+      "Private bathroom",
+      "Living area"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Living room",
+        "image": "/images/properties/property-09/Q2.jpeg"
+      },
+      {
+        "name": "Bedroom",
+        "image": "/images/properties/property-09/Q4.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-010",
+    "slug": "rosewood-family-apartment",
+    "name": "Rosewood Family Apartment",
+    "shortDescription": "A light, easy-going apartment with warm rose tones, a kitchen, and two restful bedrooms.",
+    "description": "The layout gives families room to separate and regroup, with comfortable bedrooms, a working kitchen, and a relaxed shared living space.",
+    "location": "Malaysia",
+    "area": "Mont Kiara",
+    "propertyType": "Entire apartment",
+    "collection": "City stays",
+    "bedrooms": 2,
+    "beds": 3,
+    "bathrooms": 1,
+    "maxGuests": 5,
+    "pricePerNight": 360,
+    "currency": "MYR",
+    "imageAlt": "Bedroom in the Rosewood Family Apartment",
+    "heroImage": "/images/properties/property-10/K3.jpeg",
+    "galleryImages": [
+      "/images/properties/property-10/K1.jpeg",
+      "/images/properties/property-10/K2.jpeg",
+      "/images/properties/property-10/K3.jpeg",
+      "/images/properties/property-10/K4.jpeg",
+      "/images/properties/property-10/K5.jpeg",
+      "/images/properties/property-10/K6.jpeg",
+      "/images/properties/property-10/K7.jpeg",
+      "/images/properties/property-10/K8.jpeg"
+    ],
+    "galleryCaptions": [
+      "Kitchen",
+      "Hallway",
+      "Primary bedroom",
+      "Second bedroom",
+      "Living area",
+      "Bedroom detail",
+      "Bathroom",
+      "Dining room"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Kitchen",
+      "Private bathroom",
+      "Living area",
+      "Family living area"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Primary bedroom",
+        "image": "/images/properties/property-10/K3.jpeg"
+      },
+      {
+        "name": "Second bedroom",
+        "image": "/images/properties/property-10/K4.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-011",
+    "slug": "garden-light-residence",
+    "name": "Garden Light Residence",
+    "shortDescription": "A refined garden-facing residence with an open kitchen, generous lounge, and soft natural light.",
+    "description": "A spacious home for unhurried days, with a sociable living room, well-finished kitchen, and quiet bedrooms connected to greenery outside.",
+    "location": "Malaysia",
+    "area": "Shah Alam",
+    "propertyType": "Entire home",
+    "collection": "Homes",
+    "bedrooms": 3,
+    "beds": 4,
+    "bathrooms": 2,
+    "maxGuests": 6,
+    "pricePerNight": 720,
+    "currency": "MYR",
+    "imageAlt": "Garden-facing living room at Garden Light Residence",
+    "heroImage": "/images/properties/property-11/W2.jpeg",
+    "galleryImages": [
+      "/images/properties/property-11/W1.jpeg",
+      "/images/properties/property-11/W2.jpeg",
+      "/images/properties/property-11/W3.jpeg",
+      "/images/properties/property-11/W4.jpeg",
+      "/images/properties/property-11/W5.jpeg",
+      "/images/properties/property-11/W6.jpeg",
+      "/images/properties/property-11/W7.jpeg",
+      "/images/properties/property-11/W8.jpeg"
+    ],
+    "galleryCaptions": [
+      "Open kitchen",
+      "Garden lounge",
+      "Bedroom",
+      "Living and dining",
+      "Bathroom",
+      "Second bedroom",
+      "Dining detail",
+      "Outdoor view"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Kitchen",
+      "Private bathroom",
+      "Living area",
+      "Garden outlook",
+      "Dining area"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Garden lounge",
+        "image": "/images/properties/property-11/W2.jpeg"
+      },
+      {
+        "name": "Bedroom",
+        "image": "/images/properties/property-11/W3.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-012",
+    "slug": "parkside-contemporary-home",
+    "name": "Parkside Contemporary Home",
+    "shortDescription": "A polished home with layered textures, a beautiful kitchen, and leafy views through wide glass doors.",
+    "description": "A carefully designed stay for guests who enjoy strong material detail, calm bedrooms, and a living room that opens toward the green outside.",
+    "location": "Malaysia",
+    "area": "Subang Jaya",
+    "propertyType": "Entire home",
+    "collection": "Homes",
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 2,
+    "maxGuests": 4,
+    "pricePerNight": 640,
+    "currency": "MYR",
+    "imageAlt": "Living room at Parkside Contemporary Home",
+    "heroImage": "/images/properties/property-12/A4.jpeg",
+    "galleryImages": [
+      "/images/properties/property-12/A1.jpeg",
+      "/images/properties/property-12/A2.jpeg",
+      "/images/properties/property-12/A3.jpeg",
+      "/images/properties/property-12/A4.jpeg"
+    ],
+    "galleryCaptions": [
+      "Bedroom",
+      "Kitchen",
+      "Second bedroom",
+      "Living room"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Kitchen",
+      "Private bathroom",
+      "Living area",
+      "Washer",
+      "Garden outlook"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Bedroom",
+        "image": "/images/properties/property-12/A1.jpeg"
+      },
+      {
+        "name": "Living room",
+        "image": "/images/properties/property-12/A4.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-013",
+    "slug": "maluri-transit-studio",
+    "name": "Maluri Transit Studio",
+    "shortDescription": "A practical studio close to MRT Maluri, with a quiet sleeping area, workspace, and building amenities.",
+    "description": "Built for efficient city stays, this compact studio keeps the essentials close: a comfortable bed, workspace, kitchen facilities, and straightforward transport access.",
+    "location": "Maluri, Kuala Lumpur",
+    "area": "Maluri",
+    "propertyType": "Entire studio",
+    "collection": "City stays",
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "maxGuests": 2,
+    "pricePerNight": 240,
+    "currency": "MYR",
+    "imageAlt": "Studio bedroom at Maluri Transit Studio",
+    "heroImage": "/images/properties/property-13/Z2.jpeg",
+    "galleryImages": [
+      "/images/properties/property-13/Z1.jpeg",
+      "/images/properties/property-13/Z2.jpeg",
+      "/images/properties/property-13/Z3.jpeg",
+      "/images/properties/property-13/Z4.jpeg",
+      "/images/properties/property-13/Z5.jpeg",
+      "/images/properties/property-13/Z6.jpeg",
+      "/images/properties/property-13/Z7.jpeg",
+      "/images/properties/property-13/Z8.jpeg",
+      "/images/properties/property-13/Z9.jpeg",
+      "/images/properties/property-13/Z10.jpeg"
+    ],
+    "galleryCaptions": [
+      "Exterior",
+      "Studio bedroom",
+      "Second bedroom",
+      "Lobby",
+      "Kitchen",
+      "Bathroom",
+      "Workspace",
+      "View",
+      "Dining detail",
+      "Building entrance"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Workspace",
+      "Kitchenette",
+      "Private bathroom"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Studio room",
+        "image": "/images/properties/property-13/Z2.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-014",
+    "slug": "bright-family-flat",
+    "name": "Bright Family Flat",
+    "shortDescription": "A cheerful family apartment with a dining space, full kitchen, clean bathroom, and room to gather.",
+    "description": "A bright, uncomplicated home base where everyone can spread out, make breakfast, and return to a comfortable living room after a day out.",
+    "location": "Malaysia",
+    "area": "Ampang",
+    "propertyType": "Entire apartment",
+    "collection": "Homes",
+    "bedrooms": 2,
+    "beds": 3,
+    "bathrooms": 1,
+    "maxGuests": 5,
+    "pricePerNight": 390,
+    "currency": "MYR",
+    "imageAlt": "Living and dining room at Bright Family Flat",
+    "heroImage": "/images/properties/property-14/E1.jpeg",
+    "galleryImages": [
+      "/images/properties/property-14/E1.jpeg",
+      "/images/properties/property-14/E2.jpeg",
+      "/images/properties/property-14/E3.jpeg",
+      "/images/properties/property-14/E4.jpeg",
+      "/images/properties/property-14/E5.jpeg",
+      "/images/properties/property-14/E6.jpeg",
+      "/images/properties/property-14/E7.jpeg",
+      "/images/properties/property-14/E8.jpeg",
+      "/images/properties/property-14/E9.jpeg",
+      "/images/properties/property-14/E10.jpeg"
+    ],
+    "galleryCaptions": [
+      "Living and dining",
+      "Kitchen",
+      "Bathroom",
+      "Living room",
+      "Bedroom",
+      "Second bedroom",
+      "Balcony",
+      "Exterior",
+      "Building pool",
+      "Parking"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Kitchen",
+      "Private bathroom",
+      "Living area",
+      "Dining area",
+      "Family living area"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Living and dining",
+        "image": "/images/properties/property-14/E1.jpeg"
+      },
+      {
+        "name": "Bedroom",
+        "image": "/images/properties/property-14/E5.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-015",
+    "slug": "quiet-one-bedroom-retreat",
+    "name": "Quiet One-Bedroom Retreat",
+    "shortDescription": "A calm one-bedroom apartment with a warm media wall, full kitchen, and space to take things slowly.",
+    "description": "A soft, lived-in apartment with a private bedroom and an easy shared space, suited to a short break or a longer work stay.",
+    "location": "Malaysia",
+    "area": "Damansara",
+    "propertyType": "Entire apartment",
+    "collection": "City stays",
+    "bedrooms": 1,
+    "beds": 2,
+    "bathrooms": 1,
+    "maxGuests": 3,
+    "pricePerNight": 300,
+    "currency": "MYR",
+    "imageAlt": "Bedroom in the Quiet One-Bedroom Retreat",
+    "heroImage": "/images/properties/property-15/R1.jpeg",
+    "galleryImages": [
+      "/images/properties/property-15/R1.jpeg",
+      "/images/properties/property-15/R2.jpeg",
+      "/images/properties/property-15/R3.jpeg",
+      "/images/properties/property-15/R4.jpeg",
+      "/images/properties/property-15/R5.jpeg",
+      "/images/properties/property-15/R6.jpeg",
+      "/images/properties/property-15/R7.jpeg",
+      "/images/properties/property-15/R8.jpeg"
+    ],
+    "galleryCaptions": [
+      "Bedroom",
+      "Media wall",
+      "Bedroom detail",
+      "Kitchen",
+      "Living area",
+      "Bathroom",
+      "Dining room",
+      "View"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Kitchen",
+      "Private bathroom",
+      "Living area"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Bedroom",
+        "image": "/images/properties/property-15/R1.jpeg"
+      },
+      {
+        "name": "Living area",
+        "image": "/images/properties/property-15/R5.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-016",
+    "slug": "softline-city-residence",
+    "name": "Softline City Residence",
+    "shortDescription": "A softly finished city residence with a serene bedroom, sculpted kitchen, and a spa-like bathroom.",
+    "description": "For guests drawn to quieter luxury, this residence pairs a restful palette with fine finishes and a complete apartment layout.",
+    "location": "Kuala Lumpur, Malaysia",
+    "area": "KL Sentral",
+    "propertyType": "Entire apartment",
+    "collection": "Homes",
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 2,
+    "maxGuests": 4,
+    "pricePerNight": 580,
+    "currency": "MYR",
+    "imageAlt": "Bedroom in the Softline City Residence",
+    "heroImage": "/images/properties/property-16/S1.jpeg",
+    "galleryImages": [
+      "/images/properties/property-16/S1.jpeg",
+      "/images/properties/property-16/S2.jpeg",
+      "/images/properties/property-16/S3.jpeg",
+      "/images/properties/property-16/S4.jpeg",
+      "/images/properties/property-16/S5.jpeg",
+      "/images/properties/property-16/S6.jpeg",
+      "/images/properties/property-16/S7.jpeg",
+      "/images/properties/property-16/S8.jpeg",
+      "/images/properties/property-16/S9.jpeg",
+      "/images/properties/property-16/S10.jpeg"
+    ],
+    "galleryCaptions": [
+      "Primary bedroom",
+      "Bedroom detail",
+      "Kitchen",
+      "Bathroom",
+      "Living room",
+      "Dining area",
+      "Second bedroom",
+      "View",
+      "Building amenities",
+      "Entry"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Kitchen",
+      "Private bathroom",
+      "Living area",
+      "Washer",
+      "Dining area"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Primary bedroom",
+        "image": "/images/properties/property-16/S1.jpeg"
+      },
+      {
+        "name": "Kitchen",
+        "image": "/images/properties/property-16/S3.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-017",
+    "slug": "sky-view-apartment",
+    "name": "Sky-View Apartment",
+    "shortDescription": "A streamlined high-rise apartment with floor-to-ceiling views, quiet bedrooms, and a crisp modern bath.",
+    "description": "Wide city-facing windows set the tone here, with a private bedroom, practical apartment layout, and a calm view to return to.",
+    "location": "Kuala Lumpur, Malaysia",
+    "area": "Pudu",
+    "propertyType": "Entire apartment",
+    "collection": "City stays",
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 1,
+    "maxGuests": 3,
+    "pricePerNight": 450,
+    "currency": "MYR",
+    "imageAlt": "Bedroom with city-facing windows at Sky-View Apartment",
+    "heroImage": "/images/properties/property-17/D1.jpeg",
+    "galleryImages": [
+      "/images/properties/property-17/D1.jpeg",
+      "/images/properties/property-17/D2.jpeg",
+      "/images/properties/property-17/D3.jpeg",
+      "/images/properties/property-17/D4.jpeg",
+      "/images/properties/property-17/D5.jpeg",
+      "/images/properties/property-17/D6.jpeg",
+      "/images/properties/property-17/D7.jpeg",
+      "/images/properties/property-17/D9.jpeg"
+    ],
+    "galleryCaptions": [
+      "Bedroom view",
+      "Second bedroom",
+      "Bathroom",
+      "Bedroom detail",
+      "Kitchen",
+      "Living room",
+      "View",
+      "Building exterior"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Kitchen",
+      "Private bathroom",
+      "Living area"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Bedroom view",
+        "image": "/images/properties/property-17/D1.jpeg"
+      },
+      {
+        "name": "Second bedroom",
+        "image": "/images/properties/property-17/D2.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "property-018",
+    "slug": "the-gallery-residence",
+    "name": "The Gallery Residence",
+    "shortDescription": "A cinematic design residence with a sculptural living room, rich bedroom, and gallery-like detailing.",
+    "description": "The most expressive stay in the collection, this residence layers warm timber, stone, tailored storage, and a lounge designed for lingering.",
+    "location": "Kuala Lumpur, Malaysia",
+    "area": "Bukit Jalil",
+    "propertyType": "Entire apartment",
+    "collection": "Signature stays",
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 2,
+    "maxGuests": 4,
+    "pricePerNight": 850,
+    "currency": "MYR",
+    "imageAlt": "Designer living room at The Gallery Residence",
+    "heroImage": "/images/properties/property-18/X2.jpeg",
+    "galleryImages": [
+      "/images/properties/property-18/X1.jpeg",
+      "/images/properties/property-18/X2.jpeg",
+      "/images/properties/property-18/X3.jpeg",
+      "/images/properties/property-18/X4.jpeg",
+      "/images/properties/property-18/X5.jpeg",
+      "/images/properties/property-18/X6.jpeg",
+      "/images/properties/property-18/X7.jpeg",
+      "/images/properties/property-18/X8.jpeg",
+      "/images/properties/property-18/X9.jpeg",
+      "/images/properties/property-18/X10.jpeg"
+    ],
+    "galleryCaptions": [
+      "Bedroom",
+      "Living room",
+      "Dressing room",
+      "Kitchen",
+      "Dining area",
+      "Bathroom",
+      "Bedroom detail",
+      "City view",
+      "Building lounge",
+      "Entry"
+    ],
+    "amenities": [
+      "Air conditioning",
+      "Wi-Fi",
+      "Kitchen",
+      "Private bathroom",
+      "Living area",
+      "Washer",
+      "Dining area",
+      "City view"
+    ],
+    "houseRules": [
+      "Respect the home and surrounding neighbours.",
+      "No parties or events.",
+      "Smoking is not permitted indoors.",
+      "Booking requests are confirmed after review."
+    ],
+    "rooms": [
+      {
+        "name": "Living room",
+        "image": "/images/properties/property-18/X2.jpeg"
+      },
+      {
+        "name": "Bedroom",
+        "image": "/images/properties/property-18/X1.jpeg"
+      }
+    ]
+  }
+]
